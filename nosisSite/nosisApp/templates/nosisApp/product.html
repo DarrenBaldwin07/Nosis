@@ -11,6 +11,8 @@
 </head>
 <body>
 
+    <input type="button" name=''>
+
     <div class='forms'>
         <h1>{{curForm}}</h1>
         {% if IsInfo %}
@@ -25,11 +27,13 @@
         {% if IsSymp %}
             <form action="/apiSymp/" method='post'>
                 {% csrf_token %}
-                <input type="text" name="symptoms" placeholder='Symptoms'>
-                <input type="submit" value='Next'>
+                <input id='symptoms' type="text" name="symptoms" placeholder='Symptoms'>
+                <input id='add' type="button", value='Add'>
+                <input type="submit" value='Submit'>
             </form>
         {% endif %}
     </div>
 
+    <script src="{% static 'JS/product.js' %}"></script>
 </body>
 </html>
