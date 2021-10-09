@@ -1,3 +1,179 @@
-h1 {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* background of progress bar (gray part) */
+.item1 {
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 1000px;
+    height: 30px
+}
+
+/* Progress bar (red part) */
+.item2 {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+:root {
+    --clr-primary: #3CA1FF;
+    --clr-primary2: #2D2D2D;
+    --clr-primary3: #001C45;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: Poppins;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+li a {
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto; 
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.brand-div {
+    display: flex;
+    align-items: center;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 34.5%;
+}
+.name {
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.logo {
+    width: 3em;
+    margin-left: 1em;
+}
+
+.link {
+    transition: 0.3s;
+}
+
+.link:hover {
     color: #52E182;
 }
+
+.header {
+    margin-bottom: 3em;
+}
+
+
+.github {
+    background-color: #52E182;
+    color: white;
+    padding: 1em 1.5em;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.github:hover {
+    background-color: white;
+    color:  #52E182;
+    border: 3px solid #52E182;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.hero-cta h1 {
+    font-size: 4em;
+}
+
+.hero-cta h4 {
+    font-family: "Poppins", sans-serif;
+    color: #52E182;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.hero-text {
+    width: 600px;
+}
+
+.hero-img {
+    width: 700px
+}
+
+.get-started {
+    color: #52E182;
+    border: 3px solid #52E182;
+    padding: 1em 3em;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.get-started:hover {
+    color: white;
+    background-color: #52E182;
+}
+
+.info-sec {
+    background-color: #52E182;
+    color: white;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5em;
+    width: 1300px
+}
+
+.info-row div {
+    margin: 2em;
+}
+
+
+
+
+
