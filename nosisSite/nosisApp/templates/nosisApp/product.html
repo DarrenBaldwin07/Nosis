@@ -11,27 +11,28 @@
 </head>
 <body>
 
-    <input type="button" name=''>
+    <form action="" method='post'>
+        
+    </form>
+    
 
     <div class='forms'>
-        <h1>{{curForm}}</h1>
-        {% if IsInfo %}
+        <h1>Info</h1>
+
         <form action="/apiData/" method='post'>
             {% csrf_token %}
             <input type="text" name="sex" placeholder='sex'>
             <input type="text" name="age" placeholder='age'>
+            <div>
+                <input id='symptoms' type="text" name="symptoms" placeholder='Symptoms'>
+            </div>
             <input type="submit" value='Submit'>
         </form>
-        {% endif %}
 
-        {% if IsSymp %}
-            <form action="/apiSymp/" method='post'>
-                {% csrf_token %}
-                <input id='symptoms' type="text" name="symptoms" placeholder='Symptoms'>
-                <input id='add' type="button", value='Add'>
-                <input type="submit" value='Submit'>
-            </form>
-        {% endif %}
+
+
+       
+
     </div>
 
     <script src="{% static 'JS/product.js' %}"></script>

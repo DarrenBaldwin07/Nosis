@@ -4,6 +4,7 @@ from django.db import models
 class User_data(models.Model):
     sex = models.TextField(null=False)
     age = models.IntegerField(null=False)
+    symptoms = models.TextField(null=False, default='None')
 
     
 
