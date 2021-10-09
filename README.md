@@ -6,3 +6,6 @@ Tech Used:
     - Javascript 
     - Django 
     - infermedica api
+
+Infermedica API: https://infermedica.com/
+
