@@ -64,8 +64,9 @@ def apiSymp(request):
         'sex': sex,
         'question': question,
         'conditions': conditions,
-
-
     }
 
     return render(request, 'nosisApp/productSymp.html', context)
+
+def symptoms(request):
+    return render(request, 'nosisApp/symptoms.html')

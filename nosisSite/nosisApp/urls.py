@@ -8,4 +8,5 @@ urlpatterns = [
     path('product/', views.product),
     path('apiData/', views.apiData),
     path('apiSymp/', views.apiSymp),
+    path('symptoms/', views.symptoms)
 ]

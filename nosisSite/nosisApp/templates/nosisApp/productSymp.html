@@ -10,21 +10,68 @@
     <title>Results</title>
 </head>
 <body>
-    <h1>Results</h1>
-    <h1>{{sex}}</h1>
-    <h1>{{Info.age}}</h1>
-    <h1>{{Info.symptoms}}</h1>
-    <h1>{{question}}</h1>
-
-    {% for i,j in conditions.items %}
-
-        <div id='test'>
-            <h1>{{i}}</h1>
-            <h1>{{j}}%</h1>
+    <section>
+        <div class='container'>
+            <nav class="navbar">
+                <div class='brand-div'>
+                    <a href='/' class='name'>Nosis</a>
+                    <img class='logo' src="/static/Images/Logo.svg" alt="">
+                </div>
+                <a class='link' href="/">Test Again</a>
+            </nav>
         </div>
-    
-    {% endfor %}
+    </section>
 
+    <hr>
+
+    <section class='results-sec'>
+        <div class="container">
+            <div class='results'>
+                <h1>Based on your symptoms we have computed the Bellow results!</h1>
+
+                <div class='profile-cards'>
+                    <div class='profile'>
+                        <h1>Profile</h1>
+                        <div>
+                            <h2>Gender: </h1>
+                            <h2>{{sex}}</h2>
+                        </div>
+                        <div>
+                            <h2>Age: </h2>
+                            <h2>{{Info.age}}</h2>
+                        </div>
+                    </div>
+
+                    <div class="conditions">
+                       
+                        <h1>Possible Conditions</h1>
+                         {% for i,j in conditions.items %}
+                            <div>
+                                <div class='cond-row'>
+                                    <h2>{{i}}. </h2>
+                                    <div class='percent-row'>
+                                        <h2 class='prob'>Probability:</h2>
+                                        <div>
+                                            <h2>{{j}}%</h2>
+                                            <div class='prog-1'>
+                                                <div class='prog-2'></div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="questions">
+                        <h1>Some questions you may want to consider</h1>
+                        <h2>{{question}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 </body>

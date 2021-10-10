@@ -18,7 +18,7 @@
                     <a href='/' class='name'>Nosis</a>
                     <img class='logo' src="/static/Images/Logo.svg" alt="">
                 </div>
-                <a class='link' href="#" target='_blank'>Symptoms</a>
+                <a class='link' href="symptoms/" target='_blank'>Symptoms</a>
             </nav>
         </div>
     </section>
@@ -33,7 +33,7 @@
 
                     <form action="/apiData/" method='post'>
                         {% csrf_token %}
-                        <input autocomplete='off' class='inputs' type="text" name="sex" placeholder='sex'>
+                        <input autocomplete='off' class='inputs' type="text" name="sex" placeholder='gender'>
                         <input autocomplete='off' class='inputs' type="text" name="age" placeholder='age'>
                         <input autocomplete='off' class='inputs' id='symptoms' type="text" name="symptoms" placeholder='Symptom IDs'>
                         <input autocomplete='off' class='sub-btn' type="submit" value='SUBMIT'>

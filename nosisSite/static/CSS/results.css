@@ -1,8 +1,184 @@
-#test {
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: Poppins;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto; 
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.brand-div {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.logo {
+    width: 3em;
+    margin-left: 1em;
+}
+
+.link {
+    color: white;
+    background: #00B63D;
+    background: -moz-linear-gradient(left, #00B63D 0%, #00CE45 50%, #52E182 100%);
+    background: -webkit-linear-gradient(left, #00B63D 0%, #00CE45 50%, #52E182 100%);
+    background: linear-gradient(to right, #00B63D 0%, #00CE45 50%, #52E182 100%);
+    padding: .5em 1em;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background: #52E182;
+    background: -moz-linear-gradient(left, #52E182 0%, #00CE45 50%, #00B63D 100%);
+    background: -webkit-linear-gradient(left, #52E182 0%, #00CE45 50%, #00B63D 100%);
+    background: linear-gradient(to right, #52E182 0%, #00CE45 50%, #00B63D 100%);
+}
+
+.results-sec {
+    margin-top: 2em;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.results h1 {
+    color: #52E182;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.profile-cards {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.profile h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.profile div {
     display: flex;
     flex-direction: row;
 }
 
-#test h1 {
-    margin: 1em;
+.profile div h2 {
+    margin-left: 0.5em;
 }
+
+
+
+.prog-1 {
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 50px;
+    height: 10px
+}
+
+
+.prog-2 {
+    background: #00B63D;
+    background: -moz-linear-gradient(left, #00B63D 0%, #00CE45 50%, #52E182 100%);
+    background: -webkit-linear-gradient(left, #00B63D 0%, #00CE45 50%, #52E182 100%);
+    background: linear-gradient(to right, #00B63D 0%, #00CE45 50%, #52E182 100%);
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+.cond-row {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    align-items: center;
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.percent-row {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.percent-row h2 {
+    margin-right: 1em;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
