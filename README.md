@@ -7,7 +7,7 @@ Tech Used:
     - Django 
     - infermedica api
 
-Infermedica API: https://infermedica.com/
+Infermedica API: https://developer.infermedica.com/
 Illustration Credits: https://undraw.co
 
 

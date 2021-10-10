@@ -1,26 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* background of progress bar (gray part) */
-.item1 {
-    background-color: lightgray;
-    border-radius: 20px;
-    width: 1000px;
-    height: 30px
-}
 
-/* Progress bar (red part) */
-.item2 {
-    background-color: red;
-    width: 50%;
-    height: 100%;
-    border-radius: 20px;
-}
 
-:root {
-    --clr-primary: #3CA1FF;
-    --clr-primary2: #2D2D2D;
-    --clr-primary3: #001C45;
-}
 
 * {
     box-sizing: border-box;
@@ -69,7 +50,6 @@ li a {
 .brand-div {
     display: flex;
     align-items: center;
-
 }
 
 .links {

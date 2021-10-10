@@ -10,30 +10,41 @@
     <title>Product</title>
 </head>
 <body>
-
-    <form action="" method='post'>
-        
-    </form>
     
+    <section>
+        <div class='container'>
+            <nav class="navbar">
+                <div class='brand-div'>
+                    <a href='/' class='name'>Nosis</a>
+                    <img class='logo' src="/static/Images/Logo.svg" alt="">
+                </div>
+                <a class='link' href="#" target='_blank'>Symptoms</a>
+            </nav>
+        </div>
+    </section>
 
-    <div class='forms'>
-        <h1>Info</h1>
+    <hr>
 
-        <form action="/apiData/" method='post'>
-            {% csrf_token %}
-            <input type="text" name="sex" placeholder='sex'>
-            <input type="text" name="age" placeholder='age'>
-            <div>
-                <input id='symptoms' type="text" name="symptoms" placeholder='Symptoms'>
+    <section>
+        <div class="container">
+            <div class='info-dash'>
+                <div>
+                    <h1>Start by inputting the required information into the bellow fields.</h1>
+
+                    <form action="/apiData/" method='post'>
+                        {% csrf_token %}
+                        <input autocomplete='off' class='inputs' type="text" name="sex" placeholder='sex'>
+                        <input autocomplete='off' class='inputs' type="text" name="age" placeholder='age'>
+                        <input autocomplete='off' class='inputs' id='symptoms' type="text" name="symptoms" placeholder='Symptom IDs'>
+                        <input autocomplete='off' class='sub-btn' type="submit" value='SUBMIT'>
+                    </form>
+                </div>
+                
+                <img class='hero-img2' src="/static/Images/HeroImg2.svg" alt="">
+
             </div>
-            <input type="submit" value='Submit'>
-        </form>
-
-
-
-       
-
-    </div>
+        </div>
+    </section>
 
     <script src="{% static 'JS/product.js' %}"></script>
 </body>
