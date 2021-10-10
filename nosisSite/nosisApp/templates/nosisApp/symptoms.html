@@ -1,12 +1,1343 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/CSS/symptomes.css' %}">
+    <title>Symptoms</title>
 </head>
 <body>
-    <h1>Symptoms</h1>
+
+    <section>
+        <div class='container'>
+            <nav class="navbar">
+                <div class='brand-div'>
+                    <a href='/' class='name'>Nosis</a>
+                    <img class='logo' src="/static/Images/Logo.svg" alt="">
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class='sample-sec'>
+        <div>
+            <h1>Symptom ID's</h1>
+            <h1>Format: x_y,x_y etc</h1>
+        </div>
+        
+
+        <ul class="sample-ids">
+            <h1>A</h1>
+            <li class="list__item alphabet__list-item">Abdominal guarding <span class="hint">(s_1558)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal mass <span class="hint">(s_299)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal mass, after pregnancy or the removal of a molar pregnancy <span class="hint">(s_1293)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain <span class="hint">(s_13)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, burning or gnawing <span class="hint">(s_1802)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, colicky <span class="hint">(s_1848)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, crampy <span class="hint">(s_1860)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, diffuse <span class="hint">(s_1557)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, epigastric <span class="hint">(s_1387)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, exacerbating after caffeine consumption <span class="hint">(s_1207)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, exacerbating during coughing or movement <span class="hint">(s_15)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, exacerbating during deep breath <span class="hint">(s_1202)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, exacerbating on an empty stomach <span class="hint">(s_14)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, gradual onset <span class="hint">(s_1844)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, lasting 2 to 7 days <span class="hint">(s_1852)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, lasting 8 to 14 days <span class="hint">(s_1853)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, lasting less than two days <span class="hint">(s_1840)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, lasting more than two weeks <span class="hint">(s_1842)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, left lower quadrant <span class="hint">(s_1729)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, left side <span class="hint">(s_1854)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, left upper quadrant <span class="hint">(s_1591)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, midcycle <span class="hint">(s_1859)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, migrating to the right lower quadrant <span class="hint">(s_1851)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, mild <span class="hint">(s_1782)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, moderate <span class="hint">(s_1783)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, pelvic <span class="hint">(s_1598)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, periumbilical <span class="hint">(s_1532)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, postprandial <span class="hint">(s_16)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, premenstrual <span class="hint">(s_17)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, radiating to left shoulder or shoulder blade <span class="hint">(s_1845)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, radiating to lower or middle part of the back <span class="hint">(s_1846)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, radiating to right shoulder or shoulder blade <span class="hint">(s_471)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, recurrent <span class="hint">(s_1847)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, reduced by defecation or relieving flatulence <span class="hint">(s_57)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, right lower quadrant <span class="hint">(s_1531)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, right side <span class="hint">(s_1855)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, right upper quadrant <span class="hint">(s_1528)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, severe <span class="hint">(s_1195)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, sharp and stabbing <span class="hint">(s_1369)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, sudden onset <span class="hint">(s_1843)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal pain, unbearable <span class="hint">(s_1929)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal tenderness <span class="hint">(s_1514)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal tenderness, left upper quadrant <span class="hint">(s_1589)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal tenderness, right upper quadrant <span class="hint">(s_1392)</span></li>
+            <li class="list__item alphabet__list-item">Abdominal tenderness, suprapubic <span class="hint">(s_1400)</span></li>
+            <li class="list__item alphabet__list-item">Abnormal foveal avascular zone <span class="hint">(s_1419)</span></li>
+            <li class="list__item alphabet__list-item">Abnormal vaginal discharge <span class="hint">(s_328)</span></li>
+            <li class="list__item alphabet__list-item">Abscess <span class="hint">(s_598)</span></li>
+            <li class="list__item alphabet__list-item">Absence of deep reflexes <span class="hint">(s_1072)</span></li>
+            <li class="list__item alphabet__list-item">Achilles tendon hyperreflexia <span class="hint">(s_1502)</span></li>
+            <li class="list__item alphabet__list-item">Acid reflux <span class="hint">(s_2121)</span></li>
+            <li class="list__item alphabet__list-item">Active wound bleeding <span class="hint">(s_1973)</span></li>
+            <li class="list__item alphabet__list-item">Activity related to sex despite negative consequences <span class="hint">(s_3)</span></li>
+            <li class="list__item alphabet__list-item">Adenoid face <span class="hint">(s_1111)</span></li>
+            <li class="list__item alphabet__list-item">Agitation <span class="hint">(s_145)</span></li>
+            <li class="list__item alphabet__list-item">Agnosia <span class="hint">(s_833)</span></li>
+            <li class="list__item alphabet__list-item">Agoraphobia <span class="hint">(s_884)</span></li>
+            <li class="list__item alphabet__list-item">Agraphia <span class="hint">(s_1012)</span></li>
+            <li class="list__item alphabet__list-item">Alcohol craving <span class="hint">(s_817)</span></li>
+            <li class="list__item alphabet__list-item">Alcohol tolerance <span class="hint">(s_588)</span></li>
+            <li class="list__item alphabet__list-item">Alcohol withdrawal syndrome <span class="hint">(s_818)</span></li>
+            <li class="list__item alphabet__list-item">Allelomimetic behavior, allomimetic behavior <span class="hint">(s_1019)</span></li>
+            <li class="list__item alphabet__list-item">Allen-Cleckley sign <span class="hint">(s_1272)</span></li>
+            <li class="list__item alphabet__list-item">Alogia <span class="hint">(s_837)</span></li>
+            <li class="list__item alphabet__list-item">Altered defecation rhythm <span class="hint">(s_1728)</span></li>
+            <li class="list__item alphabet__list-item">Amenorrhea <span class="hint">(s_1457)</span></li>
+            <li class="list__item alphabet__list-item">Amenorrhea, primary <span class="hint">(s_1458)</span></li>
+            <li class="list__item alphabet__list-item">Amenorrhea, secondary, for at least 12 months <span class="hint">(s_1370)</span></li>
+            <li class="list__item alphabet__list-item">Amusia <span class="hint">(s_1032)</span></li>
+            <li class="list__item alphabet__list-item">Anemia <span class="hint">(s_147)</span></li>
+            <li class="list__item alphabet__list-item">Angular cheilitis <span class="hint">(s_608)</span></li>
+            <li class="list__item alphabet__list-item">Anhedonia <span class="hint">(s_508)</span></li>
+            <li class="list__item alphabet__list-item">Anhidrosis <span class="hint">(s_1123)</span></li>
+            <li class="list__item alphabet__list-item">Anhidrosis, face, unilateral <span class="hint">(s_669)</span></li>
+            <li class="list__item alphabet__list-item">Anicteric presentation <span class="hint">(s_2170)</span></li>
+            <li class="list__item alphabet__list-item">Anisocoria <span class="hint">(s_497)</span></li>
+            <li class="list__item alphabet__list-item">Annular skin lesions <span class="hint">(s_1647)</span></li>
+            <li class="list__item alphabet__list-item">Anomic aphasia <span class="hint">(s_1030)</span></li>
+            <li class="list__item alphabet__list-item">Anorectal pain <span class="hint">(s_436)</span></li>
+            <li class="list__item alphabet__list-item">Anxiety <span class="hint">(s_120)</span></li>
+            <li class="list__item alphabet__list-item">Anxiety attack <span class="hint">(s_582)</span></li>
+            <li class="list__item alphabet__list-item">Apathy <span class="hint">(s_4)</span></li>
+            <li class="list__item alphabet__list-item">Aphasia <span class="hint">(s_969)</span></li>
+            <li class="list__item alphabet__list-item">Aphonia <span class="hint">(s_477)</span></li>
+            <li class="list__item alphabet__list-item">Aponeurotic reflex <span class="hint">(s_1269)</span></li>
+            <li class="list__item alphabet__list-item">Appetite for salty foods <span class="hint">(s_6)</span></li>
+            <li class="list__item alphabet__list-item">Apraxia <span class="hint">(s_1010)</span></li>
+            <li class="list__item alphabet__list-item">Ascites <span class="hint">(s_1116)</span></li>
+            <li class="list__item alphabet__list-item">Asymmetry of a skin mole or birthmark <span class="hint">(s_380)</span></li>
+            <li class="list__item alphabet__list-item">Ataxia <span class="hint">(s_651)</span></li>
+            <li class="list__item alphabet__list-item">Atonic bladder <span class="hint">(s_1120)</span></li>
+            <li class="list__item alphabet__list-item">Atrophy or diminishing of both testicles <span class="hint">(s_1117)</span></li>
+            <li class="list__item alphabet__list-item">Auditory verbal agnosia <span class="hint">(s_1028)</span></li>
+            <li class="list__item alphabet__list-item">Auscultative fine crackles over the thorax <span class="hint">(s_857)</span></li>
+            <li class="list__item alphabet__list-item">Auscultative rhonchi over the thorax <span class="hint">(s_1316)</span></li>
+            <li class="list__item alphabet__list-item">Auscultative wheezes over the thorax <span class="hint">(s_856)</span></li>
+            <li class="list__item alphabet__list-item">Avoiding actions, places, or people that bring back memories of trauma <span class="hint">(s_710)</span></li>
+            <li class="list__item alphabet__list-item">Avoiding eating and drinking in public <span class="hint">(s_718)</span></li>
+            <li class="list__item alphabet__list-item">Avoiding eating in someone's presence <span class="hint">(s_719)</span></li>
+            <li class="list__item alphabet__list-item">Avoiding public appearances <span class="hint">(s_717)</span></li>
+            <li class="list__item alphabet__list-item">Avoiding talking to authority figures <span class="hint">(s_720)</span></li>
+            <li class="list__item alphabet__list-item">Avoiding thoughts, feelings, conversations related to traumatic experience <span class="hint">(s_709)</span></li>
+            <li class="list__item alphabet__list-item">Axillary or inguinal freckles <span class="hint">(s_1322)</span></li>
+            <h1>B</h1>
+            <li class="list__item alphabet__list-item">Babinski sign <span class="hint">(s_1023)</span></li>
+            <li class="list__item alphabet__list-item">Back pain <span class="hint">(s_1190)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, exacerbated by physical exertion <span class="hint">(s_159)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, improves with rest <span class="hint">(s_1206)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, lasting several hours <span class="hint">(s_1205)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, lumbar <span class="hint">(s_53)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, lumbar, exacerbating during the night <span class="hint">(s_1339)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, lumbar, radiates to back of the thigh <span class="hint">(s_38)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, lumbar, radiating to the groin <span class="hint">(s_663)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, recurrent <span class="hint">(s_1189)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, severe <span class="hint">(s_1192)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, sudden <span class="hint">(s_1198)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, thoracic <span class="hint">(s_1772)</span></li>
+            <li class="list__item alphabet__list-item">Back pain, worsens on palpation <span class="hint">(s_2085)</span></li>
+            <li class="list__item alphabet__list-item">Behavioral changes, ignoring consequences and social norms <span class="hint">(s_842)</span></li>
+            <li class="list__item alphabet__list-item">Behavioral changes, personality <span class="hint">(s_348)</span></li>
+            <li class="list__item alphabet__list-item">Belching <span class="hint">(s_561)</span></li>
+            <li class="list__item alphabet__list-item">Bilateral absence of Achilles tendon reflex <span class="hint">(s_1073)</span></li>
+            <li class="list__item alphabet__list-item">Bilateral limb apraxia <span class="hint">(s_1011)</span></li>
+            <li class="list__item alphabet__list-item">Bilateral muscle paralysis <span class="hint">(s_1291)</span></li>
+            <li class="list__item alphabet__list-item">Bing sign <span class="hint">(s_1257)</span></li>
+            <li class="list__item alphabet__list-item">Binge-eating attacks <span class="hint">(s_137)</span></li>
+            <li class="list__item alphabet__list-item">Bizarre delusion <span class="hint">(s_769)</span></li>
+            <li class="list__item alphabet__list-item">Black stools <span class="hint">(s_71)</span></li>
+            <li class="list__item alphabet__list-item">Bladder not emptying completely <span class="hint">(s_435)</span></li>
+            <li class="list__item alphabet__list-item">Bladder sphincter dysfunction <span class="hint">(s_1119)</span></li>
+            <li class="list__item alphabet__list-item">Bleeding after intercourse <span class="hint">(s_152)</span></li>
+            <li class="list__item alphabet__list-item">Bleeding from anus <span class="hint">(s_115)</span></li>
+            <li class="list__item alphabet__list-item">Bleeding gums <span class="hint">(s_111)</span></li>
+            <li class="list__item alphabet__list-item">Bleeding into muscles <span class="hint">(s_1386)</span></li>
+            <li class="list__item alphabet__list-item">Blepharoptosis <span class="hint">(s_192)</span></li>
+            <li class="list__item alphabet__list-item">Blindness <span class="hint">(s_1934)</span></li>
+            <li class="list__item alphabet__list-item">Blisters <span class="hint">(s_1807)</span></li>
+            <li class="list__item alphabet__list-item">Bloating <span class="hint">(s_309)</span></li>
+            <li class="list__item alphabet__list-item">Blood in stool <span class="hint">(s_112)</span></li>
+            <li class="list__item alphabet__list-item">Blood in urine <span class="hint">(s_113)</span></li>
+            <li class="list__item alphabet__list-item">Blunted affect <span class="hint">(s_771)</span></li>
+            <li class="list__item alphabet__list-item">Body aches <span class="hint">(s_1835)</span></li>
+            <li class="list__item alphabet__list-item">Bone deformation, non-traumatic <span class="hint">(s_2180)</span></li>
+            <li class="list__item alphabet__list-item">Bone deformation, post-traumatic <span class="hint">(s_2181)</span></li>
+            <li class="list__item alphabet__list-item">Bone pain <span class="hint">(s_612)</span></li>
+            <li class="list__item alphabet__list-item">Bone pain, lasting less than a week <span class="hint">(s_2070)</span></li>
+            <li class="list__item alphabet__list-item">Bone pain, lasting longer than a week <span class="hint">(s_2071)</span></li>
+            <li class="list__item alphabet__list-item">Bowel incontinence <span class="hint">(s_641)</span></li>
+            <li class="list__item alphabet__list-item">Bowel sounds, decreased <span class="hint">(s_1553)</span></li>
+            <li class="list__item alphabet__list-item">Bowel sounds, hyperactive, high-pitched <span class="hint">(s_1552)</span></li>
+            <li class="list__item alphabet__list-item">Bradycardia <span class="hint">(s_534)</span></li>
+            <li class="list__item alphabet__list-item">Breast pain or tenderness, bilateral <span class="hint">(s_1480)</span></li>
+            <li class="list__item alphabet__list-item">Breast pain or tenderness, unilateral <span class="hint">(s_609)</span></li>
+            <li class="list__item alphabet__list-item">Broken hair <span class="hint">(s_1671)</span></li>
+            <li class="list__item alphabet__list-item">Brown nail discoloration <span class="hint">(s_1310)</span></li>
+            <li class="list__item alphabet__list-item">Brudzinski sign <span class="hint">(s_1690)</span></li>
+            <li class="list__item alphabet__list-item">Bruise after trauma <span class="hint">(s_1960)</span></li>
+            <li class="list__item alphabet__list-item">Buccofacial or orofacial apraxia <span class="hint">(s_1013)</span></li>
+            <li class="list__item alphabet__list-item">Bulla <span class="hint">(s_1803)</span></li>
+            <li class="list__item alphabet__list-item">Burn involving face, hands, feet, genitalia, or major joints <span class="hint">(s_2040)</span></li>
+            <li class="list__item alphabet__list-item">Burning skin <span class="hint">(s_1165)</span></li>
+            <li class="list__item alphabet__list-item">Burning skin, face <span class="hint">(s_1684)</span></li>
+            <li class="list__item alphabet__list-item">Burning tongue <span class="hint">(s_200)</span></li>
+            <li class="list__item alphabet__list-item">Buttocks pain <span class="hint">(s_1918)</span></li>
+            <h1>C</h1>
+            <li class="list__item alphabet__list-item">Café au lait macules <span class="hint">(s_1330)</span></li>
+            <li class="list__item alphabet__list-item">Calcification of the tympanic membrane <span class="hint">(s_1168)</span></li>
+            <li class="list__item alphabet__list-item">Calf muscle spasms <span class="hint">(s_117)</span></li>
+            <li class="list__item alphabet__list-item">Cardiac murmurs <span class="hint">(s_1720)</span></li>
+            <li class="list__item alphabet__list-item">Cardiomegaly <span class="hint">(s_811)</span></li>
+            <li class="list__item alphabet__list-item">Carotid bruit <span class="hint">(s_1576)</span></li>
+            <li class="list__item alphabet__list-item">Ceasing or limiting alcohol consumption <span class="hint">(s_589)</span></li>
+            <li class="list__item alphabet__list-item">Cervical dystonia <span class="hint">(s_996)</span></li>
+            <li class="list__item alphabet__list-item">Chaddock sign <span class="hint">(s_1258)</span></li>
+            <li class="list__item alphabet__list-item">Change in color of a skin mole or birthmark <span class="hint">(s_585)</span></li>
+            <li class="list__item alphabet__list-item">Change in color of a tooth <span class="hint">(s_346)</span></li>
+            <li class="list__item alphabet__list-item">Change in handwriting <span class="hint">(s_345)</span></li>
+            <li class="list__item alphabet__list-item">Change in shape of a skin mole or birthmark <span class="hint">(s_584)</span></li>
+            <li class="list__item alphabet__list-item">Chemical burn <span class="hint">(s_2214)</span></li>
+            <li class="list__item alphabet__list-item">Chemosis <span class="hint">(s_1091)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain <span class="hint">(s_50)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, burning <span class="hint">(s_2096)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, continues after rest <span class="hint">(s_31)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, diffuse <span class="hint">(s_51)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, during exertion <span class="hint">(s_35)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, exacerbated by chest wall movement <span class="hint">(s_2051)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, exacerbated by stress <span class="hint">(s_1763)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, exacerbating when lying down <span class="hint">(s_2006)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, exacerbating with deep breath or cough <span class="hint">(s_30)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, lasting between 30 minutes and 8 hours <span class="hint">(s_2019)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, lasting less than 30 minutes <span class="hint">(s_2018)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, lasting over 8 hours <span class="hint">(s_2022)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, pressure <span class="hint">(s_1925)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, radiating between shoulder blades <span class="hint">(s_37)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, radiating to left upper limb <span class="hint">(s_2074)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, radiating to the neck <span class="hint">(s_36)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, recurrent <span class="hint">(s_1952)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, severe <span class="hint">(s_1197)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, stabbing <span class="hint">(s_1601)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, subsides during rest <span class="hint">(s_48)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, substernal <span class="hint">(s_1509)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, sudden <span class="hint">(s_1200)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, worsens on palpation <span class="hint">(s_1178)</span></li>
+            <li class="list__item alphabet__list-item">Chest pain, worsens on palpation of costochondral joints <span class="hint">(s_1580)</span></li>
+            <li class="list__item alphabet__list-item">Cheyne-Stokes respiration <span class="hint">(s_1546)</span></li>
+            <li class="list__item alphabet__list-item">Chills <span class="hint">(s_81)</span></li>
+            <li class="list__item alphabet__list-item">Chorea <span class="hint">(s_1456)</span></li>
+            <li class="list__item alphabet__list-item">Chvostek sign <span class="hint">(s_867)</span></li>
+            <li class="list__item alphabet__list-item">Cigarette smoking during illness <span class="hint">(s_196)</span></li>
+            <li class="list__item alphabet__list-item">Clasp-knife spasticity <span class="hint">(s_1281)</span></li>
+            <li class="list__item alphabet__list-item">Claudication in upper leg <span class="hint">(s_734)</span></li>
+            <li class="list__item alphabet__list-item">Clearing the throat <span class="hint">(s_1094)</span></li>
+            <li class="list__item alphabet__list-item">Clicking sounds in the jaw joint when opening or closing the mouth <span class="hint">(s_429)</span></li>
+            <li class="list__item alphabet__list-item">Clogged ear <span class="hint">(s_276)</span></li>
+            <li class="list__item alphabet__list-item">Close family or friends pointing out excessive drinking <span class="hint">(s_288)</span></li>
+            <li class="list__item alphabet__list-item">Club-foot <span class="hint">(s_869)</span></li>
+            <li class="list__item alphabet__list-item">Coated tonsils <span class="hint">(s_610)</span></li>
+            <li class="list__item alphabet__list-item">Coating on tongue <span class="hint">(s_1184)</span></li>
+            <li class="list__item alphabet__list-item">Cognitive disturbances <span class="hint">(s_2108)</span></li>
+            <li class="list__item alphabet__list-item">Cogwheel muscle rigidity <span class="hint">(s_1283)</span></li>
+            <li class="list__item alphabet__list-item">Cold and clammy skin <span class="hint">(s_1926)</span></li>
+            <li class="list__item alphabet__list-item">Cold feet and toes <span class="hint">(s_408)</span></li>
+            <li class="list__item alphabet__list-item">Cold feet and toes, unilateral <span class="hint">(s_2196)</span></li>
+            <li class="list__item alphabet__list-item">Cold hands or fingers <span class="hint">(s_556)</span></li>
+            <li class="list__item alphabet__list-item">Cold sensitivity <span class="hint">(s_118)</span></li>
+            <li class="list__item alphabet__list-item">Color vision deficiency <span class="hint">(s_1328)</span></li>
+            <li class="list__item alphabet__list-item">Coma <span class="hint">(s_2109)</span></li>
+            <li class="list__item alphabet__list-item">Compulsive behavior <span class="hint">(s_303)</span></li>
+            <li class="list__item alphabet__list-item">Confabulation <span class="hint">(s_831)</span></li>
+            <li class="list__item alphabet__list-item">Confusion (trauma related) <span class="hint">(s_1345)</span></li>
+            <li class="list__item alphabet__list-item">Conjunctival pallor <span class="hint">(s_1212)</span></li>
+            <li class="list__item alphabet__list-item">Conjunctival pallor, sudden <span class="hint">(s_1214)</span></li>
+            <li class="list__item alphabet__list-item">Consciousness disturbances <span class="hint">(s_2034)</span></li>
+            <li class="list__item alphabet__list-item">Consciousness disturbances, acute <span class="hint">(s_2072)</span></li>
+            <li class="list__item alphabet__list-item">Consciousness disturbances, chronic <span class="hint">(s_2073)</span></li>
+            <li class="list__item alphabet__list-item">Constant need for sex <span class="hint">(s_181)</span></li>
+            <li class="list__item alphabet__list-item">Constipation <span class="hint">(s_329)</span></li>
+            <li class="list__item alphabet__list-item">Constipation, chronic <span class="hint">(s_2162)</span></li>
+            <li class="list__item alphabet__list-item">Consumption of contaminated food or drink <span class="hint">(s_2164)</span></li>
+            <li class="list__item alphabet__list-item">Contentiousness <span class="hint">(s_635)</span></li>
+            <li class="list__item alphabet__list-item">Convergent strabismus <span class="hint">(s_1228)</span></li>
+            <li class="list__item alphabet__list-item">Corn or callus <span class="hint">(s_1676)</span></li>
+            <li class="list__item alphabet__list-item">Corneal reflex weak or absent <span class="hint">(s_1268)</span></li>
+            <li class="list__item alphabet__list-item">Cornell's sign <span class="hint">(s_1273)</span></li>
+            <li class="list__item alphabet__list-item">Cough <span class="hint">(s_102)</span></li>
+            <li class="list__item alphabet__list-item">Cough, dry <span class="hint">(s_105)</span></li>
+            <li class="list__item alphabet__list-item">Cough, lasting less than three weeks <span class="hint">(s_103)</span></li>
+            <li class="list__item alphabet__list-item">Cough, lasting more than eight weeks <span class="hint">(s_106)</span></li>
+            <li class="list__item alphabet__list-item">Cough, lasting three to eight weeks <span class="hint">(s_1858)</span></li>
+            <li class="list__item alphabet__list-item">Cough, nocturnal <span class="hint">(s_1985)</span></li>
+            <li class="list__item alphabet__list-item">Cough, paroxysmal <span class="hint">(s_1924)</span></li>
+            <li class="list__item alphabet__list-item">Cough, productive <span class="hint">(s_104)</span></li>
+            <li class="list__item alphabet__list-item">Cough, productive in the morning <span class="hint">(s_662)</span></li>
+            <li class="list__item alphabet__list-item">Cough, productive with pink, frothy sputum <span class="hint">(s_670)</span></li>
+            <li class="list__item alphabet__list-item">Cough, productive with yellow or green sputum <span class="hint">(s_526)</span></li>
+            <li class="list__item alphabet__list-item">Creaking of joint during movement <span class="hint">(s_270)</span></li>
+            <li class="list__item alphabet__list-item">Crowding of teeth <span class="hint">(s_242)</span></li>
+            <li class="list__item alphabet__list-item">Current cigarette smoking <span class="hint">(s_195)</span></li>
+            <li class="list__item alphabet__list-item">Cyanosis <span class="hint">(s_437)</span></li>
+            <li class="list__item alphabet__list-item">Cyanosis under the eyes <span class="hint">(s_1105)</span></li>
+            <li class="list__item alphabet__list-item">Cyanosis, fingers <span class="hint">(s_553)</span></li>
+            <li class="list__item alphabet__list-item">Cyanosis, fingers, after exposure to stress or cold <span class="hint">(s_1750)</span></li>
+            <li class="list__item alphabet__list-item">Cystoid macular edema <span class="hint">(s_1413)</span></li>
+            <h1>D</h1>
+                <li class="list__item alphabet__list-item">Damage to 2 separate areas of innervation <span class="hint">(s_1338)</span></li>
+                <li class="list__item alphabet__list-item">Dance's sign <span class="hint">(s_1555)</span></li>
+                <li class="list__item alphabet__list-item">Dandruff <span class="hint">(s_1616)</span></li>
+                <li class="list__item alphabet__list-item">Darier sign <span class="hint">(s_1171)</span></li>
+                <li class="list__item alphabet__list-item">Dark urine <span class="hint">(s_611)</span></li>
+                <li class="list__item alphabet__list-item">Dark-red spots in optic disc vessels <span class="hint">(s_1417)</span></li>
+                <li class="list__item alphabet__list-item">Decreased breast size <span class="hint">(s_357)</span></li>
+                <li class="list__item alphabet__list-item">Decreased hearing <span class="hint">(s_208)</span></li>
+                <li class="list__item alphabet__list-item">Decreased hearing, progressive hearing loss <span class="hint">(s_1484)</span></li>
+                <li class="list__item alphabet__list-item">Decreased hearing, sudden hearing loss <span class="hint">(s_1538)</span></li>
+                <li class="list__item alphabet__list-item">Decreased hearing, variable intensity and duration <span class="hint">(s_935)</span></li>
+                <li class="list__item alphabet__list-item">Decreased intensity of breath sounds <span class="hint">(s_1693)</span></li>
+                <li class="list__item alphabet__list-item">Decreased intensity of breath sounds, right basilar lung zones <span class="hint">(s_1395)</span></li>
+                <li class="list__item alphabet__list-item">Decreased libido <span class="hint">(s_236)</span></li>
+                <li class="list__item alphabet__list-item">Decreased motivation <span class="hint">(s_661)</span></li>
+                <li class="list__item alphabet__list-item">Decreased need for sleep <span class="hint">(s_634)</span></li>
+                <li class="list__item alphabet__list-item">Decreased pupillary light reflex <span class="hint">(s_535)</span></li>
+                <li class="list__item alphabet__list-item">Decreased skin turgor <span class="hint">(s_697)</span></li>
+                <li class="list__item alphabet__list-item">Decreased tongue motility <span class="hint">(s_1277)</span></li>
+                <li class="list__item alphabet__list-item">Decreased visual acuity <span class="hint">(s_967)</span></li>
+                <li class="list__item alphabet__list-item">Deep filling of treated tooth <span class="hint">(s_97)</span></li>
+                <li class="list__item alphabet__list-item">Deep tendon reflexes, decreased <span class="hint">(s_652)</span></li>
+                <li class="list__item alphabet__list-item">Deep tendon reflexes, increased <span class="hint">(s_878)</span></li>
+                <li class="list__item alphabet__list-item">Deepening of periodontal pockets <span class="hint">(s_108)</span></li>
+                <li class="list__item alphabet__list-item">Deepening of voice <span class="hint">(s_422)</span></li>
+                <li class="list__item alphabet__list-item">Delusion of guilt or sin <span class="hint">(s_768)</span></li>
+                <li class="list__item alphabet__list-item">Delusion of impoverishment <span class="hint">(s_774)</span></li>
+                <li class="list__item alphabet__list-item">Delusions <span class="hint">(s_2098)</span></li>
+                <li class="list__item alphabet__list-item">Delusions of grandeur <span class="hint">(s_677)</span></li>
+                <li class="list__item alphabet__list-item">Delusions of influence <span class="hint">(s_680)</span></li>
+                <li class="list__item alphabet__list-item">Delusions of persecution <span class="hint">(s_675)</span></li>
+                <li class="list__item alphabet__list-item">Delusions of reference <span class="hint">(s_676)</span></li>
+                <li class="list__item alphabet__list-item">Delusions of thought insertion, thought withdrawal, thought broadcasting <span class="hint">(s_839)</span></li>
+                <li class="list__item alphabet__list-item">Demarcation of retinal detachment (pigmented or nonpigmented) <span class="hint">(s_1409)</span></li>
+                <li class="list__item alphabet__list-item">Dennie-Morgan fold <span class="hint">(s_1106)</span></li>
+                <li class="list__item alphabet__list-item">Dental plaque <span class="hint">(s_203)</span></li>
+                <li class="list__item alphabet__list-item">Depressed mood <span class="hint">(s_169)</span></li>
+                <li class="list__item alphabet__list-item">Depressed mood, persistent <span class="hint">(s_916)</span></li>
+                <li class="list__item alphabet__list-item">Derealization <span class="hint">(s_514)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes <span class="hint">(s_241)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, aggravated by stress <span class="hint">(s_1761)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, at the point of contact with buttons, fasteners, or cosmetics <span class="hint">(s_352)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, chancre <span class="hint">(s_1602)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, entire skin <span class="hint">(s_398)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, exacerbated by alcohol consumption <span class="hint">(s_1692)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, eyelid <span class="hint">(s_483)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, feet <span class="hint">(s_1923)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, female genital area <span class="hint">(s_2110)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, forming a line <span class="hint">(s_350)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, hands <span class="hint">(s_1982)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, hyperpigmentation of the skin <span class="hint">(s_1680)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, localization near sebaceous glands <span class="hint">(s_390)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, located in the genital area <span class="hint">(s_1810)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, located in the mouth <span class="hint">(s_694)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, located on the face <span class="hint">(s_1808)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, male genital area <span class="hint">(s_2111)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, painful <span class="hint">(s_1571)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, preceded by pain or itching <span class="hint">(s_400)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, recurring during infections or menstrual period <span class="hint">(s_402)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, rough and irregular surface <span class="hint">(s_404)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, scabs <span class="hint">(s_245)</span></li>
+                <li class="list__item alphabet__list-item">Dermatological changes, with flare-ups and remissions <span class="hint">(s_1191)</span></li>
+                <li class="list__item alphabet__list-item">Destructive thoughts towards other people or things <span class="hint">(s_1957)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea <span class="hint">(s_8)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea, foamy <span class="hint">(s_412)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea, lasting 2 to 14 days <span class="hint">(s_2194)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea, lasting less than 48 hours <span class="hint">(s_2126)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea, lasting more than 14 days <span class="hint">(s_1850)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea, mainly at night <span class="hint">(s_1121)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea, more than 6 stools a day <span class="hint">(s_1979)</span></li>
+                <li class="list__item alphabet__list-item">Diarrhea, rice water <span class="hint">(s_1376)</span></li>
+                <li class="list__item alphabet__list-item">Difference in size of testicles <span class="hint">(s_1798)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty achieving orgasm <span class="hint">(s_1574)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty acquiring new information <span class="hint">(s_269)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty biting and chewing <span class="hint">(s_266)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty bonding with infant <span class="hint">(s_727)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty completely closing one eye <span class="hint">(s_1154)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty determining which tooth aches <span class="hint">(s_267)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty not smoking first cigarette of the day <span class="hint">(s_134)</span></li>
+                <li class="list__item alphabet__list-item">Difficulty refraining from smoking cigarettes where not permitted <span class="hint">(s_265)</span></li>
+                <li class="list__item alphabet__list-item">Diminished appetite <span class="hint">(s_284)</span></li>
+                <li class="list__item alphabet__list-item">Diminished eye motility in the same direction <span class="hint">(s_968)</span></li>
+                <li class="list__item alphabet__list-item">Diminished fear responses <span class="hint">(s_1035)</span></li>
+                <li class="list__item alphabet__list-item">Diminished superficial reflexes <span class="hint">(s_1021)</span></li>
+                <li class="list__item alphabet__list-item">Diplopia <span class="hint">(s_207)</span></li>
+                <li class="list__item alphabet__list-item">Diplopia while looking down and medially <span class="hint">(s_1232)</span></li>
+                <li class="list__item alphabet__list-item">Diplopia while looking in any direction <span class="hint">(s_1235)</span></li>
+                <li class="list__item alphabet__list-item">Diplopia with horizontal image dispersion <span class="hint">(s_1229)</span></li>
+                <li class="list__item alphabet__list-item">Diplopia with vertical or oblique image dispersion <span class="hint">(s_1231)</span></li>
+                <li class="list__item alphabet__list-item">Diplopia, lasting more than 24 hours <span class="hint">(s_2201)</span></li>
+                <li class="list__item alphabet__list-item">Diplopia, lasting up to 24 hours <span class="hint">(s_2200)</span></li>
+                <li class="list__item alphabet__list-item">Discharge from ear <span class="hint">(s_297)</span></li>
+                <li class="list__item alphabet__list-item">Discharge from ear, bloody <span class="hint">(s_1577)</span></li>
+                <li class="list__item alphabet__list-item">Discharge from ear, purulent <span class="hint">(s_1994)</span></li>
+                <li class="list__item alphabet__list-item">Discharge from periodontal pockets <span class="hint">(s_302)</span></li>
+                <li class="list__item alphabet__list-item">Discharge from urethra <span class="hint">(s_369)</span></li>
+                <li class="list__item alphabet__list-item">Discharge in tympanic cavity <span class="hint">(s_1109)</span></li>
+                <li class="list__item alphabet__list-item">Discharge under foreskin <span class="hint">(s_301)</span></li>
+                <li class="list__item alphabet__list-item">Disinhibition <span class="hint">(s_1007)</span></li>
+                <li class="list__item alphabet__list-item">Disorganized behavior <span class="hint">(s_731)</span></li>
+                <li class="list__item alphabet__list-item">Dissociated sensory loss <span class="hint">(s_1265)</span></li>
+                <li class="list__item alphabet__list-item">Distance misjudgment <span class="hint">(s_501)</span></li>
+                <li class="list__item alphabet__list-item">Diurnal mood variation <span class="hint">(s_730)</span></li>
+                <li class="list__item alphabet__list-item">Divergent strabismus <span class="hint">(s_1236)</span></li>
+                <li class="list__item alphabet__list-item">Dix-Hallpike maneuver, rotatory nystagmus <span class="hint">(s_1731)</span></li>
+                <li class="list__item alphabet__list-item">Dizziness <span class="hint">(s_370)</span></li>
+                <li class="list__item alphabet__list-item">Dizziness, head rotation <span class="hint">(s_1479)</span></li>
+                <li class="list__item alphabet__list-item">Dizziness, recurrent <span class="hint">(s_2023)</span></li>
+                <li class="list__item alphabet__list-item">Dizziness, unbearable <span class="hint">(s_2118)</span></li>
+                <li class="list__item alphabet__list-item">Dizziness, vertigo <span class="hint">(s_936)</span></li>
+                <li class="list__item alphabet__list-item">Drinking alcohol at work <span class="hint">(s_827)</span></li>
+                <li class="list__item alphabet__list-item">Drinking alcohol despite awareness of harmful effects <span class="hint">(s_819)</span></li>
+                <li class="list__item alphabet__list-item">Drinking alone <span class="hint">(s_828)</span></li>
+                <li class="list__item alphabet__list-item">Drinking large quantities of alcohol <span class="hint">(s_198)</span></li>
+                <li class="list__item alphabet__list-item">Drinking large quantities of alcohol at one time <span class="hint">(s_199)</span></li>
+                <li class="list__item alphabet__list-item">Drinking to ease hangover <span class="hint">(s_109)</span></li>
+                <li class="list__item alphabet__list-item">Drooping lower eyelid <span class="hint">(s_1158)</span></li>
+                <li class="list__item alphabet__list-item">Drooping mouth corner <span class="hint">(s_432)</span></li>
+                <li class="list__item alphabet__list-item">Drop attack <span class="hint">(s_974)</span></li>
+                <li class="list__item alphabet__list-item">Drunk driving <span class="hint">(s_823)</span></li>
+                <li class="list__item alphabet__list-item">Dry discharge on eyelids <span class="hint">(s_489)</span></li>
+                <li class="list__item alphabet__list-item">Dry eye <span class="hint">(s_2094)</span></li>
+                <li class="list__item alphabet__list-item">Dry mouth <span class="hint">(s_247)</span></li>
+                <li class="list__item alphabet__list-item">Dry skin <span class="hint">(s_542)</span></li>
+                <li class="list__item alphabet__list-item">Dry, cracked skin, bleeding occasionally <span class="hint">(s_385)</span></li>
+                <li class="list__item alphabet__list-item">Dysarthria <span class="hint">(s_315)</span></li>
+                <li class="list__item alphabet__list-item">Dysmenorrhea <span class="hint">(s_59)</span></li>
+                <li class="list__item alphabet__list-item">Dyspepsia <span class="hint">(s_1432)</span></li>
+                <li class="list__item alphabet__list-item">Dysphagia <span class="hint">(s_962)</span></li>
+                <li class="list__item alphabet__list-item">Dysphagia, esophageal <span class="hint">(s_1779)</span></li>
+                <li class="list__item alphabet__list-item">Dysphagia, oropharyngeal <span class="hint">(s_1776)</span></li>
+                <li class="list__item alphabet__list-item">Dysphonia <span class="hint">(s_68)</span></li>
+                <li class="list__item alphabet__list-item">Dysphonia, over 2 weeks <span class="hint">(s_1958)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea <span class="hint">(s_88)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, acute (trauma-related) <span class="hint">(s_2075)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, after a few minutes of walking <span class="hint">(s_2203)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, at rest <span class="hint">(s_2205)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, lasting 1 day to 4 weeks <span class="hint">(s_90)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, lasting 1 to 24 hours <span class="hint">(s_2176)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, lasting less than 1 hour <span class="hint">(s_92)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, lasting more than 4 weeks <span class="hint">(s_1625)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, on exertion <span class="hint">(s_2204)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, orthopnea <span class="hint">(s_563)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, paroxysmal nocturnal <span class="hint">(s_1317)</span></li>
+                <li class="list__item alphabet__list-item">Dyspnea, with flare-ups and remissions <span class="hint">(s_1185)</span></li>
+                <li class="list__item alphabet__list-item">Dystonia <span class="hint">(s_1298)</span></li>
+                <h1>E</h1>
+                    <li class="list__item alphabet__list-item">Ear canal swelling <span class="hint">(s_291)</span></li>
+                    <li class="list__item alphabet__list-item">Earache <span class="hint">(s_47)</span></li>
+                    <li class="list__item alphabet__list-item">Easy bruising <span class="hint">(s_234)</span></li>
+                    <li class="list__item alphabet__list-item">Edema <span class="hint">(s_700)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, ankle joint <span class="hint">(s_171)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, ankles <span class="hint">(s_623)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, both hands <span class="hint">(s_2093)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, both lower limbs <span class="hint">(s_175)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, costochondral junctions <span class="hint">(s_1581)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, daytime <span class="hint">(s_701)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, dependent on the body position <span class="hint">(s_699)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, elbow joint <span class="hint">(s_1635)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, face <span class="hint">(s_616)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, feet <span class="hint">(s_1995)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, finger <span class="hint">(s_1311)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, foot <span class="hint">(s_2103)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, hip joint <span class="hint">(s_1652)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, joint <span class="hint">(s_174)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, knee joint <span class="hint">(s_170)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, lip <span class="hint">(s_1433)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, neck <span class="hint">(s_363)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, nighttime <span class="hint">(s_702)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, nose <span class="hint">(s_1996)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, one hand <span class="hint">(s_1464)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, one lower limb <span class="hint">(s_173)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, penis <span class="hint">(s_2207)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, periorbital <span class="hint">(s_1442)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, pitting <span class="hint">(s_562)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, scrotum <span class="hint">(s_176)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, shoulder joint <span class="hint">(s_1655)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, toe <span class="hint">(s_1997)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, upper limb <span class="hint">(s_1447)</span></li>
+                    <li class="list__item alphabet__list-item">Edema, wrist joint <span class="hint">(s_1431)</span></li>
+                    <li class="list__item alphabet__list-item">Electrical burn <span class="hint">(s_1989)</span></li>
+                    <li class="list__item alphabet__list-item">Elevated mood <span class="hint">(s_633)</span></li>
+                    <li class="list__item alphabet__list-item">Enamel hypoplasia <span class="hint">(s_1166)</span></li>
+                    <li class="list__item alphabet__list-item">Enamel lesions, caries <span class="hint">(s_272)</span></li>
+                    <li class="list__item alphabet__list-item">Enlarged breasts <span class="hint">(s_219)</span></li>
+                    <li class="list__item alphabet__list-item">Enlarged kidneys <span class="hint">(s_1052)</span></li>
+                    <li class="list__item alphabet__list-item">Enlarged lymph nodes <span class="hint">(s_220)</span></li>
+                    <li class="list__item alphabet__list-item">Enlarged salivary glands <span class="hint">(s_1057)</span></li>
+                    <li class="list__item alphabet__list-item">Enlargement of hands, feet, or face <span class="hint">(s_480)</span></li>
+                    <li class="list__item alphabet__list-item">Enlargement of the lymphoid tissue in the pharynx <span class="hint">(s_1103)</span></li>
+                    <li class="list__item alphabet__list-item">Epicritic sensation loss or impairment in fingertips <span class="hint">(s_1071)</span></li>
+                    <li class="list__item alphabet__list-item">Erectile dysfunction <span class="hint">(s_733)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema <span class="hint">(s_229)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema and scaling on large portion of body <span class="hint">(s_1469)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema around eyes <span class="hint">(s_1955)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema migrans <span class="hint">(s_202)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema of skin overlying a joint <span class="hint">(s_323)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, facial <span class="hint">(s_1468)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, facial, butterfly-shaped <span class="hint">(s_230)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, finger <span class="hint">(s_1314)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, foreskin or head of the penis <span class="hint">(s_433)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, hand <span class="hint">(s_557)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, limb <span class="hint">(s_325)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, limb, hot to the touch <span class="hint">(s_179)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, palmar <span class="hint">(s_1125)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, scalp <span class="hint">(s_1791)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, toe <span class="hint">(s_2003)</span></li>
+                    <li class="list__item alphabet__list-item">Erythema, vulva <span class="hint">(s_1999)</span></li>
+                    <li class="list__item alphabet__list-item">Erythematous tonsils <span class="hint">(s_1498)</span></li>
+                    <li class="list__item alphabet__list-item">Excess of hair <span class="hint">(s_132)</span></li>
+                    <li class="list__item alphabet__list-item">Excessive fear in public situations <span class="hint">(s_723)</span></li>
+                    <li class="list__item alphabet__list-item">Excessive saliva production <span class="hint">(s_1304)</span></li>
+                    <li class="list__item alphabet__list-item">Excessive sweating <span class="hint">(s_216)</span></li>
+                    <li class="list__item alphabet__list-item">Excessive tear production <span class="hint">(s_122)</span></li>
+                    <li class="list__item alphabet__list-item">Excessive uterine enlargement in comparison to assumed duration of pregnancy <span class="hint">(s_1290)</span></li>
+                    <li class="list__item alphabet__list-item">Excessive worry about the health of a child <span class="hint">(s_725)</span></li>
+                    <li class="list__item alphabet__list-item">Exophthalmos <span class="hint">(s_1163)</span></li>
+                    <li class="list__item alphabet__list-item">Eye flashes <span class="hint">(s_606)</span></li>
+                    <li class="list__item alphabet__list-item">Eye pain <span class="hint">(s_493)</span></li>
+                    <li class="list__item alphabet__list-item">Eyelid lesion, painful <span class="hint">(s_485)</span></li>
+                    <li class="list__item alphabet__list-item">Eyelid lesion, red and warm <span class="hint">(s_486)</span></li>
+                    <li class="list__item alphabet__list-item">Eyelid lesion, red lump with yellow tip <span class="hint">(s_484)</span></li>
+                    <li class="list__item alphabet__list-item">Eyelid tremors <span class="hint">(s_591)</span></li>
+                    <li class="list__item alphabet__list-item">Eyelid twitching <span class="hint">(s_235)</span></li>
+                    <li class="list__item alphabet__list-item">Eyes sensitive to light <span class="hint">(s_488)</span></li>
+                <h1>F</h1>
+                    <li class="list__item alphabet__list-item">Facial muscle paresis <span class="hint">(s_1156)</span></li>
+                    <li class="list__item alphabet__list-item">Facial muscle spasms <span class="hint">(s_1425)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain <span class="hint">(s_478)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain, longer than a few hours <span class="hint">(s_1203)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain, paranasal sinus <span class="hint">(s_1436)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain, periodic <span class="hint">(s_427)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain, severe <span class="hint">(s_1194)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain, stabbing <span class="hint">(s_425)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain, triggered by eating, touching, brushing teeth <span class="hint">(s_426)</span></li>
+                    <li class="list__item alphabet__list-item">Facial pain, unilateral <span class="hint">(s_424)</span></li>
+                    <li class="list__item alphabet__list-item">Fatigue <span class="hint">(s_2100)</span></li>
+                    <li class="list__item alphabet__list-item">Fatigue, for more than six months <span class="hint">(s_1547)</span></li>
+                    <li class="list__item alphabet__list-item">Fear of dying <span class="hint">(s_516)</span></li>
+                    <li class="list__item alphabet__list-item">Fear of going insane <span class="hint">(s_1087)</span></li>
+                    <li class="list__item alphabet__list-item">Fear of losing control <span class="hint">(s_1088)</span></li>
+                    <li class="list__item alphabet__list-item">Fear of obesity <span class="hint">(s_157)</span></li>
+                    <li class="list__item alphabet__list-item">Fear of object, situation, action <span class="hint">(s_244)</span></li>
+                    <li class="list__item alphabet__list-item">Fear of public appearances <span class="hint">(s_721)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling detached from your body <span class="hint">(s_1587)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling hot <span class="hint">(s_274)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling of guilt <span class="hint">(s_205)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling of guilt or shame after drinking alcohol <span class="hint">(s_206)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling of helplessness <span class="hint">(s_629)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling of hopelessness <span class="hint">(s_632)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling of rectal fullness <span class="hint">(s_1565)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling of resignation <span class="hint">(s_507)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling of weight in scrotum <span class="hint">(s_1175)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling overweight despite low weight <span class="hint">(s_419)</span></li>
+                    <li class="list__item alphabet__list-item">Feeling pressure or pulsation inside the tooth <span class="hint">(s_279)</span></li>
+                    <li class="list__item alphabet__list-item">Female genital burn <span class="hint">(s_2186)</span></li>
+                    <li class="list__item alphabet__list-item">Female infertility <span class="hint">(s_7)</span></li>
+                    <li class="list__item alphabet__list-item">Fetal membranes rupture <span class="hint">(s_2010)</span></li>
+                    <li class="list__item alphabet__list-item">Fetal membranes rupture, purulent or malodorous amniotic fluid <span class="hint">(s_2125)</span></li>
+                    <li class="list__item alphabet__list-item">Fever <span class="hint">(s_98)</span></li>
+                    <li class="list__item alphabet__list-item">Fever between 100.4 and 104°F (38 and 40°C) <span class="hint">(s_100)</span></li>
+                    <li class="list__item alphabet__list-item">Fever between 98 and 100°F (37 and 38°C) <span class="hint">(s_99)</span></li>
+                    <li class="list__item alphabet__list-item">Fever greater than 104°F (40°C) <span class="hint">(s_2000)</span></li>
+                    <li class="list__item alphabet__list-item">Fever with flare-ups and remissions <span class="hint">(s_1186)</span></li>
+                    <li class="list__item alphabet__list-item">Fever, periodic <span class="hint">(s_1172)</span></li>
+                    <li class="list__item alphabet__list-item">Fever, temperature not measured <span class="hint">(s_1820)</span></li>
+                    <li class="list__item alphabet__list-item">Financial recklessness <span class="hint">(s_636)</span></li>
+                    <li class="list__item alphabet__list-item">Fine downy hair <span class="hint">(s_77)</span></li>
+                    <li class="list__item alphabet__list-item">Fits of anger <span class="hint">(s_660)</span></li>
+                    <li class="list__item alphabet__list-item">Flaccid dysarthria <span class="hint">(s_993)</span></li>
+                    <li class="list__item alphabet__list-item">Flaccid paresis <span class="hint">(s_1079)</span></li>
+                    <li class="list__item alphabet__list-item">Flaccid paresis, symmetrical <span class="hint">(s_1080)</span></li>
+                    <li class="list__item alphabet__list-item">Flank pain <span class="hint">(s_2182)</span></li>
+                    <li class="list__item alphabet__list-item">Flat affect <span class="hint">(s_772)</span></li>
+                    <li class="list__item alphabet__list-item">Foamy urine <span class="hint">(s_504)</span></li>
+                    <li class="list__item alphabet__list-item">Foot drop <span class="hint">(s_1909)</span></li>
+                    <li class="list__item alphabet__list-item">Foot pain, back of the foot, during single-leg heel raise <span class="hint">(s_1645)</span></li>
+                    <li class="list__item alphabet__list-item">Forearm pain <span class="hint">(s_1799)</span></li>
+                    <li class="list__item alphabet__list-item">Forgetting names of close friends and family <span class="hint">(s_146)</span></li>
+                    <li class="list__item alphabet__list-item">Forward-leaning posture <span class="hint">(s_204)</span></li>
+                    <li class="list__item alphabet__list-item">Foul-smelling stools <span class="hint">(s_525)</span></li>
+                    <li class="list__item alphabet__list-item">Frequent bowel movement <span class="hint">(s_1401)</span></li>
+                    <li class="list__item alphabet__list-item">Frequent infections <span class="hint">(s_505)</span></li>
+                    <li class="list__item alphabet__list-item">Frequent infections, lower respiratory tract <span class="hint">(s_532)</span></li>
+                    <li class="list__item alphabet__list-item">Frequent infections, upper respiratory tract <span class="hint">(s_531)</span></li>
+                    <li class="list__item alphabet__list-item">Frequent urination <span class="hint">(s_215)</span></li>
+                    <li class="list__item alphabet__list-item">Frequent urination, large quantities <span class="hint">(s_75)</span></li>
+                    <li class="list__item alphabet__list-item">Frontal release signs <span class="hint">(s_990)</span></li>
+                <h1>G</h1>
+                    <li class="list__item alphabet__list-item">Galactorrhea <span class="hint">(s_547)</span></li>
+                    <li class="list__item alphabet__list-item">Gambling <span class="hint">(s_2032)</span></li>
+                    <li class="list__item alphabet__list-item">Gambling, pathological <span class="hint">(s_2024)</span></li>
+                    <li class="list__item alphabet__list-item">Gastric symptoms after eating or drinking foods containing lactose <span class="hint">(s_1570)</span></li>
+                    <li class="list__item alphabet__list-item">Gastrointestinal complaints, stress-related <span class="hint">(s_1767)</span></li>
+                    <li class="list__item alphabet__list-item">General anxiety <span class="hint">(s_583)</span></li>
+                    <li class="list__item alphabet__list-item">Genu varum <span class="hint">(s_1226)</span></li>
+                    <li class="list__item alphabet__list-item">Glassy eyes <span class="hint">(s_1090)</span></li>
+                    <li class="list__item alphabet__list-item">Globus sensation <span class="hint">(s_513)</span></li>
+                    <li class="list__item alphabet__list-item">Goldflam sign <span class="hint">(s_1302)</span></li>
+                    <li class="list__item alphabet__list-item">Gonda-Allen sign <span class="hint">(s_1263)</span></li>
+                    <li class="list__item alphabet__list-item">Gordon sign <span class="hint">(s_1254)</span></li>
+                    <li class="list__item alphabet__list-item">Gottron's papules <span class="hint">(s_756)</span></li>
+                    <li class="list__item alphabet__list-item">Grandiosity <span class="hint">(s_639)</span></li>
+                    <li class="list__item alphabet__list-item">Grape-like vaginal discharge <span class="hint">(s_1294)</span></li>
+                    <li class="list__item alphabet__list-item">Gum erythema <span class="hint">(s_322)</span></li>
+                    <li class="list__item alphabet__list-item">Gum pain <span class="hint">(s_19)</span></li>
+                    <li class="list__item alphabet__list-item">Gynecomastia <span class="hint">(s_586)</span></li>
+                <h1>H</h1>
+                    <li class="list__item alphabet__list-item">Hair loss <span class="hint">(s_121)</span></li>
+                    <li class="list__item alphabet__list-item">Hairy leukoplakia <span class="hint">(s_618)</span></li>
+                    <li class="list__item alphabet__list-item">Halitosis <span class="hint">(s_65)</span></li>
+                    <li class="list__item alphabet__list-item">Hallucinations <span class="hint">(s_686)</span></li>
+                    <li class="list__item alphabet__list-item">Hallucinations, auditory <span class="hint">(s_682)</span></li>
+                    <li class="list__item alphabet__list-item">Hallucinations, gustatory <span class="hint">(s_683)</span></li>
+                    <li class="list__item alphabet__list-item">Hallucinations, olfactory <span class="hint">(s_684)</span></li>
+                    <li class="list__item alphabet__list-item">Hallucinations, tactile <span class="hint">(s_685)</span></li>
+                    <li class="list__item alphabet__list-item">Hallucinations, visual <span class="hint">(s_681)</span></li>
+                    <li class="list__item alphabet__list-item">Halos around lights <span class="hint">(s_2041)</span></li>
+                    <li class="list__item alphabet__list-item">Hard lump in inguinal region <span class="hint">(s_1246)</span></li>
+                    <li class="list__item alphabet__list-item">Hard lump in inguinal region, dark or bluish discoloration <span class="hint">(s_1248)</span></li>
+                    <li class="list__item alphabet__list-item">Hard lump in inguinal region, irreducible <span class="hint">(s_1247)</span></li>
+                    <li class="list__item alphabet__list-item">Hard lump in inguinal region, tender <span class="hint">(s_1249)</span></li>
+                    <li class="list__item alphabet__list-item">Hard retinal exudates <span class="hint">(s_1346)</span></li>
+                    <li class="list__item alphabet__list-item">Head drop <span class="hint">(s_191)</span></li>
+                    <li class="list__item alphabet__list-item">Head tilt in order to avoid diplopia <span class="hint">(s_1230)</span></li>
+                    <li class="list__item alphabet__list-item">Head tremors <span class="hint">(s_85)</span></li>
+                    <li class="list__item alphabet__list-item">Headache <span class="hint">(s_21)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, chronic <span class="hint">(s_1535)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, chronic, attack lasting 4 to 72 hours <span class="hint">(s_1870)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, chronic, attack lasting five minutes to four hours <span class="hint">(s_1868)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, chronic, attack lasting three to seven days <span class="hint">(s_1901)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, chronic, attack lasting up to five minutes <span class="hint">(s_1907)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, exacerbated by increased stress <span class="hint">(s_1762)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, exacerbating by tilting head forward <span class="hint">(s_625)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, exacerbating in the morning <span class="hint">(s_799)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, forehead <span class="hint">(s_1349)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, generalized <span class="hint">(s_24)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, lancinating <span class="hint">(s_604)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, mild <span class="hint">(s_1780)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, moderate <span class="hint">(s_1781)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, occipital <span class="hint">(s_970)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, pressing <span class="hint">(s_23)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, pulsating <span class="hint">(s_25)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, recent <span class="hint">(s_1912)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, recent, lasting for more than 1 hour and less than 1 day <span class="hint">(s_2190)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, recent, lasting less than 1 hour <span class="hint">(s_2189)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, recent, lasting more than 1 day <span class="hint">(s_2191)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, series over a period of time <span class="hint">(s_605)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, severe <span class="hint">(s_1193)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, sudden onset <span class="hint">(s_1905)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, temporal region <span class="hint">(s_1911)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, unilateral <span class="hint">(s_22)</span></li>
+                    <li class="list__item alphabet__list-item">Headache, worst headache in life <span class="hint">(s_1864)</span></li>
+                    <li class="list__item alphabet__list-item">Hearing voices arguing <span class="hint">(s_841)</span></li>
+                    <li class="list__item alphabet__list-item">Hearing voices commenting <span class="hint">(s_840)</span></li>
+                    <li class="list__item alphabet__list-item">Heartburn <span class="hint">(s_338)</span></li>
+                    <li class="list__item alphabet__list-item">Heavy legs at the end of the day <span class="hint">(s_273)</span></li>
+                    <li class="list__item alphabet__list-item">Heavy or prolonged menstrual periods <span class="hint">(s_158)</span></li>
+                    <li class="list__item alphabet__list-item">Heel drop test <span class="hint">(s_1922)</span></li>
+                    <li class="list__item alphabet__list-item">Hemarthrosis <span class="hint">(s_1170)</span></li>
+                    <li class="list__item alphabet__list-item">Hematemesis <span class="hint">(s_306)</span></li>
+                    <li class="list__item alphabet__list-item">Hemianopsia bitemporalis <span class="hint">(s_814)</span></li>
+                    <li class="list__item alphabet__list-item">Hemiparesis <span class="hint">(s_1005)</span></li>
+                    <li class="list__item alphabet__list-item">Hemiplegia <span class="hint">(s_1022)</span></li>
+                    <li class="list__item alphabet__list-item">Hemoptysis <span class="hint">(s_116)</span></li>
+                    <li class="list__item alphabet__list-item">Hepatomegaly <span class="hint">(s_1051)</span></li>
+                    <li class="list__item alphabet__list-item">Hiccups <span class="hint">(s_1295)</span></li>
+                    <li class="list__item alphabet__list-item">High-arched palate <span class="hint">(s_1108)</span></li>
+                    <li class="list__item alphabet__list-item">Holster sign <span class="hint">(s_757)</span></li>
+                    <li class="list__item alphabet__list-item">Homonymous hemianopsia <span class="hint">(s_957)</span></li>
+                    <li class="list__item alphabet__list-item">Honey-colored crust on the skin <span class="hint">(s_373)</span></li>
+                    <li class="list__item alphabet__list-item">Hot flashes <span class="hint">(s_280)</span></li>
+                    <li class="list__item alphabet__list-item">Hyperalgesia <span class="hint">(s_1481)</span></li>
+                    <li class="list__item alphabet__list-item">Hyperkeratosis on hands <span class="hint">(s_760)</span></li>
+                    <li class="list__item alphabet__list-item">Hypersensitivity to smells <span class="hint">(s_1891)</span></li>
+                    <li class="list__item alphabet__list-item">Hypersensitivity to sound <span class="hint">(s_1150)</span></li>
+                    <li class="list__item alphabet__list-item">Hypertension, over 140 mmHg <span class="hint">(s_543)</span></li>
+                    <li class="list__item alphabet__list-item">Hypertension, over 180 mmHg <span class="hint">(s_1933)</span></li>
+                    <li class="list__item alphabet__list-item">Hypesthesia of half of the face <span class="hint">(s_1159)</span></li>
+                    <li class="list__item alphabet__list-item">Hypochondriacal delusions <span class="hint">(s_679)</span></li>
+                    <li class="list__item alphabet__list-item">Hypomenorrhea <span class="hint">(s_1876)</span></li>
+                    <li class="list__item alphabet__list-item">Hypopigmentation of the skin <span class="hint">(s_180)</span></li>
+                    <li class="list__item alphabet__list-item">Hypopyon <span class="hint">(s_570)</span></li>
+                    <li class="list__item alphabet__list-item">Hypotension <span class="hint">(s_533)</span></li>
+                    <h1>I</h1>
+                        <li class="list__item alphabet__list-item">Illusion of surroundings being bigger or smaller than they actually are <span class="hint">(s_341)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired balance while walking <span class="hint">(s_317)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired concentration <span class="hint">(s_631)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired downward eye motion <span class="hint">(s_1241)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired lateral eye motion <span class="hint">(s_1227)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired medial eye motion <span class="hint">(s_1240)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired memory <span class="hint">(s_316)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired memory, alcohol-related amnesia <span class="hint">(s_825)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired memory, finding objects of everyday use <span class="hint">(s_619)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired memory, short term <span class="hint">(s_830)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired smell <span class="hint">(s_1095)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired social functioning <span class="hint">(s_716)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired upward eye motion <span class="hint">(s_1239)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired vision <span class="hint">(s_320)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired vision in one eye <span class="hint">(s_1819)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired vision on side with painful temple <span class="hint">(s_1146)</span></li>
+                        <li class="list__item alphabet__list-item">Impaired vision, recent onset <span class="hint">(s_1818)</span></li>
+                        <li class="list__item alphabet__list-item">Impulsive behavior <span class="hint">(s_1384)</span></li>
+                        <li class="list__item alphabet__list-item">Inability to bear weight <span class="hint">(s_2086)</span></li>
+                        <li class="list__item alphabet__list-item">Inability to complete tasks <span class="hint">(s_1385)</span></li>
+                        <li class="list__item alphabet__list-item">Inability to move mandible sideways <span class="hint">(s_1300)</span></li>
+                        <li class="list__item alphabet__list-item">Inability to pass flatus <span class="hint">(s_1551)</span></li>
+                        <li class="list__item alphabet__list-item">Inability to remember important aspects of a traumatic experience <span class="hint">(s_711)</span></li>
+                        <li class="list__item alphabet__list-item">Inability to stop drinking alcohol <span class="hint">(s_150)</span></li>
+                        <li class="list__item alphabet__list-item">Inability to stop flow of urine <span class="hint">(s_223)</span></li>
+                        <li class="list__item alphabet__list-item">Increase in sexual experiences or sensations needed to attain desired effect <span class="hint">(s_361)</span></li>
+                        <li class="list__item alphabet__list-item">Increased abdominal girth <span class="hint">(s_277)</span></li>
+                        <li class="list__item alphabet__list-item">Increased appetite <span class="hint">(s_311)</span></li>
+                        <li class="list__item alphabet__list-item">Increased expiratory phase <span class="hint">(s_1488)</span></li>
+                        <li class="list__item alphabet__list-item">Increased libido <span class="hint">(s_421)</span></li>
+                        <li class="list__item alphabet__list-item">Increased masseter reflex <span class="hint">(s_991)</span></li>
+                        <li class="list__item alphabet__list-item">Increased palatine reflex <span class="hint">(s_1278)</span></li>
+                        <li class="list__item alphabet__list-item">Increased pharyngeal reflex <span class="hint">(s_1279)</span></li>
+                        <li class="list__item alphabet__list-item">Increased thirst <span class="hint">(s_310)</span></li>
+                        <li class="list__item alphabet__list-item">Insomnia <span class="hint">(s_917)</span></li>
+                        <li class="list__item alphabet__list-item">Instability in knee <span class="hint">(s_1745)</span></li>
+                        <li class="list__item alphabet__list-item">Intense, non-committal relationships <span class="hint">(s_1383)</span></li>
+                        <li class="list__item alphabet__list-item">Intermittent urine flow <span class="hint">(s_358)</span></li>
+                        <li class="list__item alphabet__list-item">Interosseous muscles atrophy, feet <span class="hint">(s_1084)</span></li>
+                        <li class="list__item alphabet__list-item">Interosseous muscles atrophy, hands <span class="hint">(s_1083)</span></li>
+                        <li class="list__item alphabet__list-item">Intraretinal microvascular abnormalities <span class="hint">(s_1416)</span></li>
+                        <li class="list__item alphabet__list-item">Iris neovascularization <span class="hint">(s_1411)</span></li>
+                        <li class="list__item alphabet__list-item">Irregular menstruations <span class="hint">(s_1440)</span></li>
+                        <li class="list__item alphabet__list-item">Irritability <span class="hint">(s_540)</span></li>
+                        <li class="list__item alphabet__list-item">Irritability when unable to engage in activity related to sex <span class="hint">(s_80)</span></li>
+                        <li class="list__item alphabet__list-item">Itching after a hot shower or bath <span class="hint">(s_614)</span></li>
+                        <li class="list__item alphabet__list-item">Itching around anus <span class="hint">(s_249)</span></li>
+                        <li class="list__item alphabet__list-item">Itching in crotch <span class="hint">(s_253)</span></li>
+                        <li class="list__item alphabet__list-item">Itching in ear <span class="hint">(s_255)</span></li>
+                        <li class="list__item alphabet__list-item">Itching of eyes <span class="hint">(s_1563)</span></li>
+                        <li class="list__item alphabet__list-item">Itchy throat or nose <span class="hint">(s_252)</span></li>
+                    <h1>J</h1>
+                        <li class="list__item alphabet__list-item">Jacobsohn sign <span class="hint">(s_1271)</span></li>
+                        <li class="list__item alphabet__list-item">Janeway lesion <span class="hint">(s_1718)</span></li>
+                        <li class="list__item alphabet__list-item">Jaundice <span class="hint">(s_332)</span></li>
+                        <li class="list__item alphabet__list-item">Jaundice during increased stress <span class="hint">(s_334)</span></li>
+                        <li class="list__item alphabet__list-item">Jaundice during infectious disease <span class="hint">(s_336)</span></li>
+                        <li class="list__item alphabet__list-item">Jaundice following intense physical exertion <span class="hint">(s_335)</span></li>
+                        <li class="list__item alphabet__list-item">Jaw pain <span class="hint">(s_1961)</span></li>
+                        <li class="list__item alphabet__list-item">Joint deformation, non-traumatic <span class="hint">(s_359)</span></li>
+                        <li class="list__item alphabet__list-item">Joint deformation, posttraumatic <span class="hint">(s_2087)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain <span class="hint">(s_44)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, aggravated during cold, damp weather <span class="hint">(s_576)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, ankle <span class="hint">(s_1621)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during ankle movement <span class="hint">(s_1623)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during elbow movement <span class="hint">(s_1634)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during hip movement <span class="hint">(s_1823)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during knee movement <span class="hint">(s_1610)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during movement in the morning <span class="hint">(s_29)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during shoulder movement <span class="hint">(s_1805)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during thumb movement <span class="hint">(s_1641)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, during wrist movement <span class="hint">(s_1636)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, elbow <span class="hint">(s_1632)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, hallux <span class="hint">(s_79)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, hip <span class="hint">(s_11)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, knee <span class="hint">(s_581)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, severe, as a result of an injury <span class="hint">(s_41)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, shoulder <span class="hint">(s_1654)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, sudden <span class="hint">(s_1201)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, tenderness <span class="hint">(s_1656)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, thumb <span class="hint">(s_1639)</span></li>
+                        <li class="list__item alphabet__list-item">Joint pain, wrist <span class="hint">(s_1430)</span></li>
+                        <li class="list__item alphabet__list-item">Joint stiffness <span class="hint">(s_575)</span></li>
+                    <h1>K</h1>
+                        <li class="list__item alphabet__list-item">Kayser–Fleischer ring <span class="hint">(s_1472)</span></li>
+                        <li class="list__item alphabet__list-item">Kernig's sign <span class="hint">(s_1689)</span></li>
+                        <li class="list__item alphabet__list-item">Koplik's spots <span class="hint">(s_664)</span></li>
+                        <li class="list__item alphabet__list-item">Kussmaul breathing <span class="hint">(s_1451)</span></li>
+                    <h1>L</h1>
+                        <li class="list__item alphabet__list-item">Lack of boundaries in interpersonal relations <span class="hint">(s_778)</span></li>
+                        <li class="list__item alphabet__list-item">Lack of initiative, motivation, or drive <span class="hint">(s_1006)</span></li>
+                        <li class="list__item alphabet__list-item">Lateropulsion <span class="hint">(s_964)</span></li>
+                        <li class="list__item alphabet__list-item">Lead-pipe rigidity <span class="hint">(s_1282)</span></li>
+                        <li class="list__item alphabet__list-item">Left limb-kinetic apraxia <span class="hint">(s_1014)</span></li>
+                        <li class="list__item alphabet__list-item">Lengthening of reaction time <span class="hint">(s_658)</span></li>
+                        <li class="list__item alphabet__list-item">Lens clouding <span class="hint">(s_550)</span></li>
+                        <li class="list__item alphabet__list-item">Leopard-like spots on the skin <span class="hint">(s_666)</span></li>
+                        <li class="list__item alphabet__list-item">Levine's sign <span class="hint">(s_1378)</span></li>
+                        <li class="list__item alphabet__list-item">Lhermitte's sign <span class="hint">(s_1054)</span></li>
+                        <li class="list__item alphabet__list-item">Lice eggs or nits on hair shafts <span class="hint">(s_1793)</span></li>
+                        <li class="list__item alphabet__list-item">Limping due to pain <span class="hint">(s_1927)</span></li>
+                        <li class="list__item alphabet__list-item">Lisch nodules <span class="hint">(s_1324)</span></li>
+                        <li class="list__item alphabet__list-item">Livedo reticularis <span class="hint">(s_763)</span></li>
+                        <li class="list__item alphabet__list-item">Local dark retinal blood vessels that lie in folds <span class="hint">(s_1407)</span></li>
+                        <li class="list__item alphabet__list-item">Local elevation of retina <span class="hint">(s_1405)</span></li>
+                        <li class="list__item alphabet__list-item">Local grey discoloration of retina <span class="hint">(s_1406)</span></li>
+                        <li class="list__item alphabet__list-item">Local retinal undulation <span class="hint">(s_1408)</span></li>
+                        <li class="list__item alphabet__list-item">Loose teeth <span class="hint">(s_228)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of body hair <span class="hint">(s_1115)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of consciousness <span class="hint">(s_1543)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of consciousness, with urination or defecation <span class="hint">(s_190)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of interest in activities previously enjoyed, lasting at least two weeks <span class="hint">(s_287)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of muscle mass <span class="hint">(s_622)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of muscle mass, hands <span class="hint">(s_564)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of sense of vibration in distal parts of extremities <span class="hint">(s_1070)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of temperature sensation, impaired temperature sensation <span class="hint">(s_747)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of the lingual papillae <span class="hint">(s_1394)</span></li>
+                        <li class="list__item alphabet__list-item">Loss of vision in a superior quadrant <span class="hint">(s_1027)</span></li>
+                        <li class="list__item alphabet__list-item">Loss or impairment of proprioception <span class="hint">(s_746)</span></li>
+                        <li class="list__item alphabet__list-item">Low self-esteem <span class="hint">(s_155)</span></li>
+                        <li class="list__item alphabet__list-item">Lower intraocular pressure (&gt; 4-5mmHg) in affected eye compared to unaffected eye <span class="hint">(s_1404)</span></li>
+                        <li class="list__item alphabet__list-item">Lower limb pallor <span class="hint">(s_1725)</span></li>
+                        <li class="list__item alphabet__list-item">Lower limb tenderness <span class="hint">(s_1618)</span></li>
+                        <li class="list__item alphabet__list-item">Lower limb tenderness, calf <span class="hint">(s_1622)</span></li>
+                        <li class="list__item alphabet__list-item">Lump in scrotum <span class="hint">(s_1173)</span></li>
+                        <li class="list__item alphabet__list-item">Lying about eating, hiding food <span class="hint">(s_420)</span></li>
+                        <li class="list__item alphabet__list-item">Lying to hide the extent of your gambling <span class="hint">(s_2029)</span></li>
+                        <li class="list__item alphabet__list-item">Lymph node pain <span class="hint">(s_1733)</span></li>
+                    <h1>M</h1>
+                        <li class="list__item alphabet__list-item">Major bleeding <span class="hint">(s_2077)</span></li>
+                        <li class="list__item alphabet__list-item">Making rash or impulsive decisions <span class="hint">(s_779)</span></li>
+                        <li class="list__item alphabet__list-item">Male genital burn <span class="hint">(s_2187)</span></li>
+                        <li class="list__item alphabet__list-item">Male infertility <span class="hint">(s_2052)</span></li>
+                        <li class="list__item alphabet__list-item">Malocclusions <span class="hint">(s_289)</span></li>
+                        <li class="list__item alphabet__list-item">Marcus Gunn pupil <span class="hint">(s_1403)</span></li>
+                        <li class="list__item alphabet__list-item">Measles rash <span class="hint">(s_665)</span></li>
+                        <li class="list__item alphabet__list-item">Mendel-Bechterev sign <span class="hint">(s_1261)</span></li>
+                        <li class="list__item alphabet__list-item">Menstrual period more than three weeks late <span class="hint">(s_415)</span></li>
+                        <li class="list__item alphabet__list-item">Mental disturbances exacerbated by stress <span class="hint">(s_1768)</span></li>
+                        <li class="list__item alphabet__list-item">Microstomia <span class="hint">(s_360)</span></li>
+                        <li class="list__item alphabet__list-item">Minor uncontrollable bleeding <span class="hint">(s_2078)</span></li>
+                        <li class="list__item alphabet__list-item">Miosis <span class="hint">(s_537)</span></li>
+                        <li class="list__item alphabet__list-item">Miscarriage <span class="hint">(s_212)</span></li>
+                        <li class="list__item alphabet__list-item">Moniz sign <span class="hint">(s_1274)</span></li>
+                        <li class="list__item alphabet__list-item">Mood swings <span class="hint">(s_646)</span></li>
+                        <li class="list__item alphabet__list-item">Morning stiffness of hand joints <span class="hint">(s_258)</span></li>
+                        <li class="list__item alphabet__list-item">Motor retardation <span class="hint">(s_1297)</span></li>
+                        <li class="list__item alphabet__list-item">Mouth breathing <span class="hint">(s_1104)</span></li>
+                        <li class="list__item alphabet__list-item">Mouth ulcers <span class="hint">(s_1)</span></li>
+                        <li class="list__item alphabet__list-item">Mucosal pallor <span class="hint">(s_1210)</span></li>
+                        <li class="list__item alphabet__list-item">Mucosal pallor, sudden <span class="hint">(s_1213)</span></li>
+                        <li class="list__item alphabet__list-item">Mucous secretion in stool <span class="hint">(s_642)</span></li>
+                        <li class="list__item alphabet__list-item">Murphy's sign <span class="hint">(s_567)</span></li>
+                        <li class="list__item alphabet__list-item">Muscle cramps <span class="hint">(s_503)</span></li>
+                        <li class="list__item alphabet__list-item">Muscle weakness <span class="hint">(s_650)</span></li>
+                        <li class="list__item alphabet__list-item">Muscle weakness, ascending <span class="hint">(s_744)</span></li>
+                        <li class="list__item alphabet__list-item">Muscle weakness, large proximal muscles <span class="hint">(s_766)</span></li>
+                        <li class="list__item alphabet__list-item">Muscle weakness, legs <span class="hint">(s_743)</span></li>
+                        <li class="list__item alphabet__list-item">Muscle weakness, standing up or climbing stairs <span class="hint">(s_767)</span></li>
+                        <li class="list__item alphabet__list-item">Myalgia <span class="hint">(s_1142)</span></li>
+                        <li class="list__item alphabet__list-item">Myalgia, deep and dull <span class="hint">(s_748)</span></li>
+                        <li class="list__item alphabet__list-item">Myalgia, exacerbated by stress <span class="hint">(s_1766)</span></li>
+                        <li class="list__item alphabet__list-item">Mydriasis <span class="hint">(s_536)</span></li>
+                        <li class="list__item alphabet__list-item">Myringitis <span class="hint">(s_1476)</span></li>
+                    <h1>N</h1>
+                        <li class="list__item alphabet__list-item">Nail clubbing <span class="hint">(s_603)</span></li>
+                        <li class="list__item alphabet__list-item">Nail dystrophy <span class="hint">(s_1167)</span></li>
+                        <li class="list__item alphabet__list-item">Nail pain <span class="hint">(s_2005)</span></li>
+                        <li class="list__item alphabet__list-item">Nasal catarrh <span class="hint">(s_107)</span></li>
+                        <li class="list__item alphabet__list-item">Nasal congestion <span class="hint">(s_331)</span></li>
+                        <li class="list__item alphabet__list-item">Nasal congestion, chronic <span class="hint">(s_1812)</span></li>
+                        <li class="list__item alphabet__list-item">Nasal congestion, worsening after couple of days <span class="hint">(s_2226)</span></li>
+                        <li class="list__item alphabet__list-item">Nasal polyps <span class="hint">(s_524)</span></li>
+                        <li class="list__item alphabet__list-item">Nasal speech <span class="hint">(s_1303)</span></li>
+                        <li class="list__item alphabet__list-item">Nausea <span class="hint">(s_156)</span></li>
+                        <li class="list__item alphabet__list-item">Neck asymmetry <span class="hint">(s_1388)</span></li>
+                        <li class="list__item alphabet__list-item">Neck pain <span class="hint">(s_1483)</span></li>
+                        <li class="list__item alphabet__list-item">Neck pain, during head movement <span class="hint">(s_2173)</span></li>
+                        <li class="list__item alphabet__list-item">Neck pain, unilateral <span class="hint">(s_965)</span></li>
+                        <li class="list__item alphabet__list-item">Neck vein distention <span class="hint">(s_671)</span></li>
+                        <li class="list__item alphabet__list-item">Need to smoke cigarette when waking up <span class="hint">(s_327)</span></li>
+                        <li class="list__item alphabet__list-item">Neglecting family, work, or hobbies due to alcohol <span class="hint">(s_820)</span></li>
+                        <li class="list__item alphabet__list-item">Neglecting obligations such as work, study, or family to pursue sex or think about sex <span class="hint">(s_326)</span></li>
+                        <li class="list__item alphabet__list-item">Nervousness or weepiness <span class="hint">(s_143)</span></li>
+                        <li class="list__item alphabet__list-item">Neural tenderness <span class="hint">(s_1086)</span></li>
+                        <li class="list__item alphabet__list-item">Neurological deficit, since less than 24 hours <span class="hint">(s_2080)</span></li>
+                        <li class="list__item alphabet__list-item">Neurological deficit, since more than 24 hours <span class="hint">(s_2083)</span></li>
+                        <li class="list__item alphabet__list-item">Nihilistic delusions <span class="hint">(s_678)</span></li>
+                        <li class="list__item alphabet__list-item">Nipple discharge <span class="hint">(s_1422)</span></li>
+                        <li class="list__item alphabet__list-item">No signs of upper respiratory infection <span class="hint">(s_2172)</span></li>
+                        <li class="list__item alphabet__list-item">Nocturia <span class="hint">(s_182)</span></li>
+                        <li class="list__item alphabet__list-item">Nodule located in breast <span class="hint">(s_300)</span></li>
+                        <li class="list__item alphabet__list-item">Nonstop drinking for several days <span class="hint">(s_822)</span></li>
+                        <li class="list__item alphabet__list-item">Normal body temperature <span class="hint">(s_2168)</span></li>
+                        <li class="list__item alphabet__list-item">Normal heart rate <span class="hint">(s_2169)</span></li>
+                        <li class="list__item alphabet__list-item">Normal lung sounds on auscultation <span class="hint">(s_2171)</span></li>
+                        <li class="list__item alphabet__list-item">Normal vital signs <span class="hint">(s_2174)</span></li>
+                        <li class="list__item alphabet__list-item">Nose pain <span class="hint">(s_1605)</span></li>
+                        <li class="list__item alphabet__list-item">Nosebleed, single episode <span class="hint">(s_2016)</span></li>
+                        <li class="list__item alphabet__list-item">Nosebleeds <span class="hint">(s_1429)</span></li>
+                        <li class="list__item alphabet__list-item">Nosebleeds, recurrent <span class="hint">(s_2017)</span></li>
+                        <li class="list__item alphabet__list-item">Numbness of part of ear <span class="hint">(s_1305)</span></li>
+                        <li class="list__item alphabet__list-item">Numbness of tongue <span class="hint">(s_1148)</span></li>
+                        <li class="list__item alphabet__list-item">Numerous nevi <span class="hint">(s_377)</span></li>
+                        <li class="list__item alphabet__list-item">Nystagmus <span class="hint">(s_479)</span></li>
+                        <li class="list__item alphabet__list-item">Nystagmus, horizontal <span class="hint">(s_1721)</span></li>
+                    <h1>O</h1>
+                        <li class="list__item alphabet__list-item">Obsessions <span class="hint">(s_127)</span></li>
+                        <li class="list__item alphabet__list-item">Obsessions, fears <span class="hint">(s_687)</span></li>
+                        <li class="list__item alphabet__list-item">Obsessions, images <span class="hint">(s_688)</span></li>
+                        <li class="list__item alphabet__list-item">Ocular bulb rotation laterally and downward <span class="hint">(s_1237)</span></li>
+                        <li class="list__item alphabet__list-item">Ocular bulb rotation medially and upward <span class="hint">(s_1234)</span></li>
+                        <li class="list__item alphabet__list-item">Ocular motility disorder <span class="hint">(s_750)</span></li>
+                        <li class="list__item alphabet__list-item">Oculomotor nerve palsy <span class="hint">(s_1147)</span></li>
+                        <li class="list__item alphabet__list-item">Odynophagia <span class="hint">(s_509)</span></li>
+                        <li class="list__item alphabet__list-item">Oily skin <span class="hint">(s_362)</span></li>
+                        <li class="list__item alphabet__list-item">Oligomenorrhea <span class="hint">(s_1877)</span></li>
+                        <li class="list__item alphabet__list-item">Oliguria <span class="hint">(s_185)</span></li>
+                        <li class="list__item alphabet__list-item">One finger pain <span class="hint">(s_1313)</span></li>
+                        <li class="list__item alphabet__list-item">Opacified tympanic membrane <span class="hint">(s_1107)</span></li>
+                        <li class="list__item alphabet__list-item">Open comedones <span class="hint">(s_389)</span></li>
+                        <li class="list__item alphabet__list-item">Oppenheim sign <span class="hint">(s_1256)</span></li>
+                        <li class="list__item alphabet__list-item">Optic disc neovascularization <span class="hint">(s_1410)</span></li>
+                        <li class="list__item alphabet__list-item">Optic nerve disc pallor <span class="hint">(s_1329)</span></li>
+                        <li class="list__item alphabet__list-item">Orbicularis oris muscle spasm <span class="hint">(s_868)</span></li>
+                        <li class="list__item alphabet__list-item">Organic cause <span class="hint">(s_844)</span></li>
+                        <li class="list__item alphabet__list-item">Orthostatic hypotension <span class="hint">(s_541)</span></li>
+                        <li class="list__item alphabet__list-item">Osler nodes <span class="hint">(s_1719)</span></li>
+                        <li class="list__item alphabet__list-item">Ovarian enlargement <span class="hint">(s_1289)</span></li>
+                        <li class="list__item alphabet__list-item">Overbite <span class="hint">(s_1110)</span></li>
+                        <li class="list__item alphabet__list-item">Overwork <span class="hint">(s_371)</span></li>
+                    <h1>P</h1>
+                        <li class="list__item alphabet__list-item">Pain behind ear <span class="hint">(s_1180)</span></li>
+                        <li class="list__item alphabet__list-item">Pain caused by firm pressure on tibia <span class="hint">(s_1382)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in both feet <span class="hint">(s_2092)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in both hands <span class="hint">(s_2091)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in both lower limbs <span class="hint">(s_1453)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in both lower limbs, stocking distribution <span class="hint">(s_1112)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in both upper limbs <span class="hint">(s_1452)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in crotch <span class="hint">(s_28)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in crotch, sudden <span class="hint">(s_34)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in fingers or hand <span class="hint">(s_554)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in glans penis <span class="hint">(s_60)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in groin during coughing, sneezing, laughing or physical exercises <span class="hint">(s_1250)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in lower limb <span class="hint">(s_579)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in lower limb, calf <span class="hint">(s_1620)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in lower limb, calf, severe while walking <span class="hint">(s_232)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in lower limb, calf, severe while walking, intermittent claudication <span class="hint">(s_732)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in lower limb, severe <span class="hint">(s_1930)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in lower limb, thigh <span class="hint">(s_1893)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in one foot <span class="hint">(s_578)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in scrotum <span class="hint">(s_52)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in temporomandibular joint while yawning, chewing, or biting <span class="hint">(s_430)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in the back of the leg, above the heel <span class="hint">(s_1878)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in upper limb <span class="hint">(s_580)</span></li>
+                        <li class="list__item alphabet__list-item">Pain in upper limb, severe <span class="hint">(s_1935)</span></li>
+                        <li class="list__item alphabet__list-item">Pain increases when touching ear area <span class="hint">(s_476)</span></li>
+                        <li class="list__item alphabet__list-item">Pain near eye socket <span class="hint">(s_54)</span></li>
+                        <li class="list__item alphabet__list-item">Pain while urinating <span class="hint">(s_39)</span></li>
+                        <li class="list__item alphabet__list-item">Painful defecation <span class="hint">(s_1393)</span></li>
+                        <li class="list__item alphabet__list-item">Painful ejaculation <span class="hint">(s_33)</span></li>
+                        <li class="list__item alphabet__list-item">Painful intercourse <span class="hint">(s_32)</span></li>
+                        <li class="list__item alphabet__list-item">Painless wound <span class="hint">(s_2119)</span></li>
+                        <li class="list__item alphabet__list-item">Palatine petechiae <span class="hint">(s_1371)</span></li>
+                        <li class="list__item alphabet__list-item">Pale and brittle nails <span class="hint">(s_10)</span></li>
+                        <li class="list__item alphabet__list-item">Pale or clay-colored stools <span class="hint">(s_569)</span></li>
+                        <li class="list__item alphabet__list-item">Pale skin <span class="hint">(s_9)</span></li>
+                        <li class="list__item alphabet__list-item">Palpable neck mass <span class="hint">(s_298)</span></li>
+                        <li class="list__item alphabet__list-item">Palpitations <span class="hint">(s_110)</span></li>
+                        <li class="list__item alphabet__list-item">Palpitations, over 5 minutes <span class="hint">(s_2002)</span></li>
+                        <li class="list__item alphabet__list-item">Palpitations, recurrent <span class="hint">(s_2004)</span></li>
+                        <li class="list__item alphabet__list-item">Panic attacks in public appearances <span class="hint">(s_722)</span></li>
+                        <li class="list__item alphabet__list-item">Papilledema <span class="hint">(s_803)</span></li>
+                        <li class="list__item alphabet__list-item">Papule or nodule smaller than 1 cm in diameter <span class="hint">(s_101)</span></li>
+                        <li class="list__item alphabet__list-item">Paralogical thinking <span class="hint">(s_838)</span></li>
+                        <li class="list__item alphabet__list-item">Paralysis, limb <span class="hint">(s_1296)</span></li>
+                        <li class="list__item alphabet__list-item">Paraphimosis <span class="hint">(s_2206)</span></li>
+                        <li class="list__item alphabet__list-item">Paraspinal muscle tenderness <span class="hint">(s_1486)</span></li>
+                        <li class="list__item alphabet__list-item">Paresis, limb <span class="hint">(s_148)</span></li>
+                        <li class="list__item alphabet__list-item">Paresis, limb, upper limbs <span class="hint">(s_268)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia <span class="hint">(s_518)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia around the mouth <span class="hint">(s_126)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia in both upper limbs, glove distribution <span class="hint">(s_1066)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia in feet <span class="hint">(s_125)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, ascending <span class="hint">(s_1069)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, both lower limbs <span class="hint">(s_1063)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, both upper limbs <span class="hint">(s_973)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, face <span class="hint">(s_971)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, limbs <span class="hint">(s_83)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, one lower limb <span class="hint">(s_2001)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, one upper limb <span class="hint">(s_1449)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesia, sudden onset <span class="hint">(s_1932)</span></li>
+                        <li class="list__item alphabet__list-item">Paresthesias, symmetrical <span class="hint">(s_1068)</span></li>
+                        <li class="list__item alphabet__list-item">Parotid swelling <span class="hint">(s_529)</span></li>
+                        <li class="list__item alphabet__list-item">Past appendectomy <span class="hint">(s_1800)</span></li>
+                        <li class="list__item alphabet__list-item">Past cholecystectomy <span class="hint">(s_1801)</span></li>
+                        <li class="list__item alphabet__list-item">Pathologic fractures <span class="hint">(s_1715)</span></li>
+                        <li class="list__item alphabet__list-item">Pencil-thin stools <span class="hint">(s_795)</span></li>
+                        <li class="list__item alphabet__list-item">Penile itching <span class="hint">(s_2043)</span></li>
+                        <li class="list__item alphabet__list-item">Pericardial friction rub <span class="hint">(s_1380)</span></li>
+                        <li class="list__item alphabet__list-item">Perionychial pain <span class="hint">(s_1312)</span></li>
+                        <li class="list__item alphabet__list-item">Periorbital ecchymosis <span class="hint">(s_2084)</span></li>
+                        <li class="list__item alphabet__list-item">Perseveration <span class="hint">(s_1018)</span></li>
+                        <li class="list__item alphabet__list-item">Petechiae <span class="hint">(s_594)</span></li>
+                        <li class="list__item alphabet__list-item">Pharyngeal erythema <span class="hint">(s_1367)</span></li>
+                        <li class="list__item alphabet__list-item">Pharyngeal pain <span class="hint">(s_20)</span></li>
+                        <li class="list__item alphabet__list-item">Pharyngeal pain, unilateral <span class="hint">(s_1826)</span></li>
+                        <li class="list__item alphabet__list-item">Pharyngeal swelling, bilateral <span class="hint">(s_1102)</span></li>
+                        <li class="list__item alphabet__list-item">Pharyngeal swelling, unilateral <span class="hint">(s_1390)</span></li>
+                        <li class="list__item alphabet__list-item">Phimosis <span class="hint">(s_263)</span></li>
+                        <li class="list__item alphabet__list-item">Phobia <span class="hint">(s_915)</span></li>
+                        <li class="list__item alphabet__list-item">Physical injury symptom <span class="hint">(s_2088)</span></li>
+                        <li class="list__item alphabet__list-item">Physical trauma (to self or others) after drinking alcohol <span class="hint">(s_281)</span></li>
+                        <li class="list__item alphabet__list-item">Pill-rolling tremor <span class="hint">(s_1379)</span></li>
+                        <li class="list__item alphabet__list-item">Pleural effusion <span class="hint">(s_1437)</span></li>
+                        <li class="list__item alphabet__list-item">Pleural friction rub <span class="hint">(s_1396)</span></li>
+                        <li class="list__item alphabet__list-item">Pleuritic chest pain after an injury <span class="hint">(s_2112)</span></li>
+                        <li class="list__item alphabet__list-item">Poor personal hygiene <span class="hint">(s_770)</span></li>
+                        <li class="list__item alphabet__list-item">Positive allergy challenge <span class="hint">(s_1093)</span></li>
+                        <li class="list__item alphabet__list-item">Positive skin allergy (prick or patch) test <span class="hint">(s_1092)</span></li>
+                        <li class="list__item alphabet__list-item">Possible rabies exposure <span class="hint">(s_2175)</span></li>
+                        <li class="list__item alphabet__list-item">Postnasal drip <span class="hint">(s_1471)</span></li>
+                        <li class="list__item alphabet__list-item">Premature graying <span class="hint">(s_225)</span></li>
+                        <li class="list__item alphabet__list-item">Preoccupation with food <span class="hint">(s_69)</span></li>
+                        <li class="list__item alphabet__list-item">Presence of neurofibromas <span class="hint">(s_1323)</span></li>
+                        <li class="list__item alphabet__list-item">Pretibial myxedema <span class="hint">(s_1162)</span></li>
+                        <li class="list__item alphabet__list-item">Priapism <span class="hint">(s_1397)</span></li>
+                        <li class="list__item alphabet__list-item">Problems with everyday tasks such as washing, eating, dressing <span class="hint">(s_123)</span></li>
+                        <li class="list__item alphabet__list-item">Prolonged bleeding time <span class="hint">(s_593)</span></li>
+                        <li class="list__item alphabet__list-item">Prolonged nighttime sleep <span class="hint">(s_777)</span></li>
+                        <li class="list__item alphabet__list-item">Prostate enlargement <span class="hint">(s_1089)</span></li>
+                        <li class="list__item alphabet__list-item">Pruritus <span class="hint">(s_254)</span></li>
+                        <li class="list__item alphabet__list-item">Pruritus, aggravated by change in temperature, sweating, or wearing wool <span class="hint">(s_251)</span></li>
+                        <li class="list__item alphabet__list-item">Pruritus, foot <span class="hint">(s_2033)</span></li>
+                        <li class="list__item alphabet__list-item">Pruritus, most intense at night <span class="hint">(s_250)</span></li>
+                        <li class="list__item alphabet__list-item">Pruritus, scalp <span class="hint">(s_1617)</span></li>
+                        <li class="list__item alphabet__list-item">Pseudomembrane in throat or nose <span class="hint">(s_1548)</span></li>
+                        <li class="list__item alphabet__list-item">Psychomotor retardation <span class="hint">(s_649)</span></li>
+                        <li class="list__item alphabet__list-item">Pupil dilation variation <span class="hint">(s_653)</span></li>
+                        <li class="list__item alphabet__list-item">Pupil or pupils unreactive to accomodation <span class="hint">(s_1238)</span></li>
+                        <li class="list__item alphabet__list-item">Purpuric rash <span class="hint">(s_762)</span></li>
+                        <li class="list__item alphabet__list-item">Purpuric rash, palpable <span class="hint">(s_1915)</span></li>
+                        <li class="list__item alphabet__list-item">Purulent vaginal discharge <span class="hint">(s_2212)</span></li>
+                        <li class="list__item alphabet__list-item">Pus under the skin of the finger <span class="hint">(s_1315)</span></li>
+                        <li class="list__item alphabet__list-item">Pustule <span class="hint">(s_388)</span></li>
+                        <li class="list__item alphabet__list-item">Pyramidal signs <span class="hint">(s_989)</span></li>
+                    <h1>Q</h1>
+                        <li class="list__item alphabet__list-item">Quickening of thoughts and speech <span class="hint">(s_637)</span></li>
+                    <h1>R</h1>
+                        <li class="list__item alphabet__list-item">Rash <span class="hint">(s_417)</span></li>
+                        <li class="list__item alphabet__list-item">Re-experiencing the psychological trauma in nightmares <span class="hint">(s_706)</span></li>
+                        <li class="list__item alphabet__list-item">Re-experiencing the psychological trauma in recurring flashbacks <span class="hint">(s_705)</span></li>
+                        <li class="list__item alphabet__list-item">Re-experiencing the psychological trauma through physiological reactivity <span class="hint">(s_708)</span></li>
+                        <li class="list__item alphabet__list-item">Re-experiencing traumatic event <span class="hint">(s_707)</span></li>
+                        <li class="list__item alphabet__list-item">Rebound tenderness <span class="hint">(s_1494)</span></li>
+                        <li class="list__item alphabet__list-item">Recent alcohol consumption <span class="hint">(s_528)</span></li>
+                        <li class="list__item alphabet__list-item">Recent injury without bleeding <span class="hint">(s_2079)</span></li>
+                        <li class="list__item alphabet__list-item">Receptive aphasia <span class="hint">(s_1029)</span></li>
+                        <li class="list__item alphabet__list-item">Recurrent gastric ulcers <span class="hint">(s_142)</span></li>
+                        <li class="list__item alphabet__list-item">Recurrent seizures <span class="hint">(s_2209)</span></li>
+                        <li class="list__item alphabet__list-item">Recurrent tonsils inflammation <span class="hint">(s_139)</span></li>
+                        <li class="list__item alphabet__list-item">Red and stinging conjunctivae <span class="hint">(s_72)</span></li>
+                        <li class="list__item alphabet__list-item">Red and swollen oral mucosa <span class="hint">(s_692)</span></li>
+                        <li class="list__item alphabet__list-item">Red eye <span class="hint">(s_492)</span></li>
+                        <li class="list__item alphabet__list-item">Red maculas with silver-white, flaky scales <span class="hint">(s_384)</span></li>
+                        <li class="list__item alphabet__list-item">Red macules <span class="hint">(s_1301)</span></li>
+                        <li class="list__item alphabet__list-item">Red stretch marks on abdomen, hips or thighs <span class="hint">(s_73)</span></li>
+                        <li class="list__item alphabet__list-item">Redness behind the ear <span class="hint">(s_1181)</span></li>
+                        <li class="list__item alphabet__list-item">Redness in temporal region <span class="hint">(s_1145)</span></li>
+                        <li class="list__item alphabet__list-item">Redness on shoulders and nape of neck <span class="hint">(s_758)</span></li>
+                        <li class="list__item alphabet__list-item">Reduced body temperature <span class="hint">(s_410)</span></li>
+                        <li class="list__item alphabet__list-item">Reduced degree of facial expression <span class="hint">(s_572)</span></li>
+                        <li class="list__item alphabet__list-item">Regular uterine contractions <span class="hint">(s_2008)</span></li>
+                        <li class="list__item alphabet__list-item">Regurgitation <span class="hint">(s_330)</span></li>
+                        <li class="list__item alphabet__list-item">Religious delusion <span class="hint">(s_780)</span></li>
+                        <li class="list__item alphabet__list-item">Respiratory distress (trauma related) <span class="hint">(s_2076)</span></li>
+                        <li class="list__item alphabet__list-item">Restricted mobility, problem bending over <span class="hint">(s_186)</span></li>
+                        <li class="list__item alphabet__list-item">Restricted passive range of joint motion <span class="hint">(s_1903)</span></li>
+                        <li class="list__item alphabet__list-item">Restricted range of joint motion <span class="hint">(s_1713)</span></li>
+                        <li class="list__item alphabet__list-item">Retinal artery occlusions <span class="hint">(s_1418)</span></li>
+                        <li class="list__item alphabet__list-item">Retinal hemorrhage <span class="hint">(s_1344)</span></li>
+                        <li class="list__item alphabet__list-item">Retinal microaneurysms <span class="hint">(s_1412)</span></li>
+                        <li class="list__item alphabet__list-item">Retinal neovascularization elsewhere <span class="hint">(s_1415)</span></li>
+                        <li class="list__item alphabet__list-item">Retinal swelling <span class="hint">(s_1414)</span></li>
+                        <li class="list__item alphabet__list-item">Retraction or indentation of nipple <span class="hint">(s_343)</span></li>
+                        <li class="list__item alphabet__list-item">Retrobulbar neuritis <span class="hint">(s_1055)</span></li>
+                        <li class="list__item alphabet__list-item">Rhinitis triggered by environment <span class="hint">(s_1533)</span></li>
+                        <li class="list__item alphabet__list-item">Rhinophyma <span class="hint">(s_1682)</span></li>
+                        <li class="list__item alphabet__list-item">Risky drinking <span class="hint">(s_816)</span></li>
+                        <li class="list__item alphabet__list-item">Romberg's sign <span class="hint">(s_1738)</span></li>
+                        <li class="list__item alphabet__list-item">Rose spots on lower chest and abdomen <span class="hint">(s_1377)</span></li>
+                        <li class="list__item alphabet__list-item">Rossolimo's sign <span class="hint">(s_1255)</span></li>
+                        <li class="list__item alphabet__list-item">Rovsing's sign <span class="hint">(s_1732)</span></li>
+                        <li class="list__item alphabet__list-item">Russell's sign <span class="hint">(s_1141)</span></li>
+                    <h1>S</h1>
+                        <li class="list__item alphabet__list-item">Sagging of the palate ipsilateral to suspected nerve damage <span class="hint">(s_1285)</span></li>
+                        <li class="list__item alphabet__list-item">Scarlet fever rash <span class="hint">(s_1544)</span></li>
+                        <li class="list__item alphabet__list-item">Schaeffer's sign <span class="hint">(s_1259)</span></li>
+                        <li class="list__item alphabet__list-item">Schizophasia <span class="hint">(s_836)</span></li>
+                        <li class="list__item alphabet__list-item">Scleral icterus <span class="hint">(s_1492)</span></li>
+                        <li class="list__item alphabet__list-item">Scotoma, eye floaters <span class="hint">(s_124)</span></li>
+                        <li class="list__item alphabet__list-item">Scrotal transillumination <span class="hint">(s_1342)</span></li>
+                        <li class="list__item alphabet__list-item">Seasonal pattern of depressive symptoms <span class="hint">(s_835)</span></li>
+                        <li class="list__item alphabet__list-item">Secret drinking <span class="hint">(s_829)</span></li>
+                        <li class="list__item alphabet__list-item">Seizures <span class="hint">(s_2045)</span></li>
+                        <li class="list__item alphabet__list-item">Seizures with loss of consciousness <span class="hint">(s_189)</span></li>
+                        <li class="list__item alphabet__list-item">Seizures without loss of consciousness <span class="hint">(s_539)</span></li>
+                        <li class="list__item alphabet__list-item">Self-disgust after binge eating <span class="hint">(s_568)</span></li>
+                        <li class="list__item alphabet__list-item">Self-injurious behavior, recent <span class="hint">(s_2228)</span></li>
+                        <li class="list__item alphabet__list-item">Self-injurious behavior, recent, major <span class="hint">(s_2230)</span></li>
+                        <li class="list__item alphabet__list-item">Self-injurious behavior, recent, minor <span class="hint">(s_2229)</span></li>
+                        <li class="list__item alphabet__list-item">Self-injurious thoughts or behaviors <span class="hint">(s_2213)</span></li>
+                        <li class="list__item alphabet__list-item">Sense of self-worth dependent on weight <span class="hint">(s_423)</span></li>
+                        <li class="list__item alphabet__list-item">Sensory loss in both arms <span class="hint">(s_972)</span></li>
+                        <li class="list__item alphabet__list-item">Sensory loss in one limb <span class="hint">(s_313)</span></li>
+                        <li class="list__item alphabet__list-item">Sensory loss involving the face <span class="hint">(s_959)</span></li>
+                        <li class="list__item alphabet__list-item">Serious injury, respiratory difficulty, severe bleeding, new neurological problem <span class="hint">(s_2089)</span></li>
+                        <li class="list__item alphabet__list-item">Severe pain, trauma related <span class="hint">(s_2081)</span></li>
+                        <li class="list__item alphabet__list-item">Sexual activity in recent months <span class="hint">(s_2)</span></li>
+                        <li class="list__item alphabet__list-item">Sexual activity more often or with more partners than intended <span class="hint">(s_74)</span></li>
+                        <li class="list__item alphabet__list-item">Shafer's sign <span class="hint">(s_1399)</span></li>
+                        <li class="list__item alphabet__list-item">Shallow breathing <span class="hint">(s_1462)</span></li>
+                        <li class="list__item alphabet__list-item">Simple auditory paradelusions <span class="hint">(s_648)</span></li>
+                        <li class="list__item alphabet__list-item">Simple visual paradelusions <span class="hint">(s_647)</span></li>
+                        <li class="list__item alphabet__list-item">Sinuses tender to palpation <span class="hint">(s_1496)</span></li>
+                        <li class="list__item alphabet__list-item">Skin and blood vessel inflammation <span class="hint">(s_654)</span></li>
+                        <li class="list__item alphabet__list-item">Skin desquamation <span class="hint">(s_1470)</span></li>
+                        <li class="list__item alphabet__list-item">Skin mass <span class="hint">(s_1831)</span></li>
+                        <li class="list__item alphabet__list-item">Skin mass greater than 1 cm in diameter <span class="hint">(s_1830)</span></li>
+                        <li class="list__item alphabet__list-item">Skin mass, bleeding <span class="hint">(s_1931)</span></li>
+                        <li class="list__item alphabet__list-item">Skin mole or birthmark with diameter greater than 6 mm <span class="hint">(s_382)</span></li>
+                        <li class="list__item alphabet__list-item">Skin mole or birthmark with irregular border <span class="hint">(s_381)</span></li>
+                        <li class="list__item alphabet__list-item">Skin pain <span class="hint">(s_1674)</span></li>
+                        <li class="list__item alphabet__list-item">Skin pain, severe <span class="hint">(s_43)</span></li>
+                        <li class="list__item alphabet__list-item">Skin pallor, sudden <span class="hint">(s_1209)</span></li>
+                        <li class="list__item alphabet__list-item">Skin phototype I or II <span class="hint">(s_376)</span></li>
+                        <li class="list__item alphabet__list-item">Skin thickening <span class="hint">(s_1650)</span></li>
+                        <li class="list__item alphabet__list-item">Skull lesions <span class="hint">(s_1474)</span></li>
+                        <li class="list__item alphabet__list-item">Sleep disorder <span class="hint">(s_319)</span></li>
+                        <li class="list__item alphabet__list-item">Slower gait <span class="hint">(s_238)</span></li>
+                        <li class="list__item alphabet__list-item">Smoking large quantity of cigarettes <span class="hint">(s_93)</span></li>
+                        <li class="list__item alphabet__list-item">Smoking most cigarettes in the morning <span class="hint">(s_308)</span></li>
+                        <li class="list__item alphabet__list-item">Smooth face without wrinkles <span class="hint">(s_271)</span></li>
+                        <li class="list__item alphabet__list-item">Sneeze <span class="hint">(s_715)</span></li>
+                        <li class="list__item alphabet__list-item">Sneezing attacks <span class="hint">(s_136)</span></li>
+                        <li class="list__item alphabet__list-item">Snoring <span class="hint">(s_67)</span></li>
+                        <li class="list__item alphabet__list-item">Social isolation <span class="hint">(s_659)</span></li>
+                        <li class="list__item alphabet__list-item">Social maladjustment <span class="hint">(s_773)</span></li>
+                        <li class="list__item alphabet__list-item">Soft lump in inguinal region <span class="hint">(s_1242)</span></li>
+                        <li class="list__item alphabet__list-item">Soft lump in inguinal region, decreasing while supine <span class="hint">(s_1244)</span></li>
+                        <li class="list__item alphabet__list-item">Soft lump in inguinal region, enlarging during increase in abdominal pressure <span class="hint">(s_1243)</span></li>
+                        <li class="list__item alphabet__list-item">Soft lump in inguinal region, reducible <span class="hint">(s_1245)</span></li>
+                        <li class="list__item alphabet__list-item">Soft retinal exudates <span class="hint">(s_1347)</span></li>
+                        <li class="list__item alphabet__list-item">Spasms in upper extremities <span class="hint">(s_1426)</span></li>
+                        <li class="list__item alphabet__list-item">Spastic dysarthria <span class="hint">(s_992)</span></li>
+                        <li class="list__item alphabet__list-item">Spasticity <span class="hint">(s_571)</span></li>
+                        <li class="list__item alphabet__list-item">Spending a lot of time on sex-related activity <span class="hint">(s_213)</span></li>
+                        <li class="list__item alphabet__list-item">Spine asymmetry <span class="hint">(s_1536)</span></li>
+                        <li class="list__item alphabet__list-item">Spine or joint stiffness subsiding after exercise <span class="hint">(s_259)</span></li>
+                        <li class="list__item alphabet__list-item">Splenic agenesis <span class="hint">(s_1169)</span></li>
+                        <li class="list__item alphabet__list-item">Splenomegaly <span class="hint">(s_1045)</span></li>
+                        <li class="list__item alphabet__list-item">Steatorrhea <span class="hint">(s_1434)</span></li>
+                        <li class="list__item alphabet__list-item">Sterling's sign <span class="hint">(s_1270)</span></li>
+                        <li class="list__item alphabet__list-item">Sternal rub <span class="hint">(s_1381)</span></li>
+                        <li class="list__item alphabet__list-item">Stiff neck <span class="hint">(s_418)</span></li>
+                        <li class="list__item alphabet__list-item">Stiffness of spine in the morning <span class="hint">(s_257)</span></li>
+                        <li class="list__item alphabet__list-item">Stimulants use (amphetamine, cocaine) <span class="hint">(s_880)</span></li>
+                        <li class="list__item alphabet__list-item">Stinging eyes and feeling of sand under eyelids <span class="hint">(s_201)</span></li>
+                        <li class="list__item alphabet__list-item">Stransky's sign <span class="hint">(s_1260)</span></li>
+                        <li class="list__item alphabet__list-item">Strawberry tongue <span class="hint">(s_1467)</span></li>
+                        <li class="list__item alphabet__list-item">Stridor <span class="hint">(s_1562)</span></li>
+                        <li class="list__item alphabet__list-item">Strumpell's sign <span class="hint">(s_1275)</span></li>
+                        <li class="list__item alphabet__list-item">Sudden face flushing <span class="hint">(s_1067)</span></li>
+                        <li class="list__item alphabet__list-item">Sudden increase in blood pressure <span class="hint">(s_530)</span></li>
+                        <li class="list__item alphabet__list-item">Suicidal thoughts <span class="hint">(s_1139)</span></li>
+                        <li class="list__item alphabet__list-item">Suicidal thoughts with plan and steps taken <span class="hint">(s_1140)</span></li>
+                        <li class="list__item alphabet__list-item">Sunburn <span class="hint">(s_1943)</span></li>
+                        <li class="list__item alphabet__list-item">Sunken eyeballs <span class="hint">(s_698)</span></li>
+                        <li class="list__item alphabet__list-item">Surface of lesion on genitals resembling cauliflower <span class="hint">(s_221)</span></li>
+                        <li class="list__item alphabet__list-item">Suspicious mole or birthmark <span class="hint">(s_383)</span></li>
+                        <li class="list__item alphabet__list-item">Sweating on forehead on painful side <span class="hint">(s_214)</span></li>
+                        <li class="list__item alphabet__list-item">Sweating, night <span class="hint">(s_217)</span></li>
+                        <li class="list__item alphabet__list-item">Swelling in the mastoid region <span class="hint">(s_1182)</span></li>
+                        <li class="list__item alphabet__list-item">Swelling of nasal concha <span class="hint">(s_1099)</span></li>
+                        <li class="list__item alphabet__list-item">Swelling of nasal mucosa <span class="hint">(s_1097)</span></li>
+                        <li class="list__item alphabet__list-item">Swelling of temporal artery <span class="hint">(s_1144)</span></li>
+                        <li class="list__item alphabet__list-item">Swollen blue or bluish-gray nasal mucosa <span class="hint">(s_1098)</span></li>
+                        <li class="list__item alphabet__list-item">Swollen cheek <span class="hint">(s_177)</span></li>
+                        <li class="list__item alphabet__list-item">Swollen gums <span class="hint">(s_172)</span></li>
+                        <li class="list__item alphabet__list-item">Symmetrical flaccid paresis in lower limbs (mainly feet) <span class="hint">(s_1081)</span></li>
+                        <li class="list__item alphabet__list-item">Symmetrical flaccid paresis in upper limbs (mainly hands) <span class="hint">(s_1082)</span></li>
+                        <li class="list__item alphabet__list-item">Symptoms appear after taking painkillers, change in diet <span class="hint">(s_162)</span></li>
+                        <li class="list__item alphabet__list-item">Symptoms do not occur during sleep <span class="hint">(s_602)</span></li>
+                        <li class="list__item alphabet__list-item">Symptoms exacerbated by cold temperature <span class="hint">(s_558)</span></li>
+                        <li class="list__item alphabet__list-item">Symptoms increase in evening <span class="hint">(s_160)</span></li>
+                        <li class="list__item alphabet__list-item">Symptoms occur several hours after drinking excessive alcohol <span class="hint">(s_165)</span></li>
+                        <li class="list__item alphabet__list-item">Symptoms regularly appear a few days before menstrual period <span class="hint">(s_161)</span></li>
+                    <h1>T</h1>
+                        <li class="list__item alphabet__list-item">Tachycardia <span class="hint">(s_261)</span></li>
+                        <li class="list__item alphabet__list-item">Tachypnea <span class="hint">(s_227)</span></li>
+                        <li class="list__item alphabet__list-item">Taste disorder in anterior two-thirds of tongue <span class="hint">(s_1153)</span></li>
+                        <li class="list__item alphabet__list-item">Taste disorders <span class="hint">(s_1096)</span></li>
+                        <li class="list__item alphabet__list-item">Telangiectasias <span class="hint">(s_545)</span></li>
+                        <li class="list__item alphabet__list-item">Telangiectasias, face <span class="hint">(s_1685)</span></li>
+                        <li class="list__item alphabet__list-item">Temporary blindness <span class="hint">(s_1465)</span></li>
+                        <li class="list__item alphabet__list-item">Tenesmus <span class="hint">(s_640)</span></li>
+                        <li class="list__item alphabet__list-item">Terry's nails <span class="hint">(s_1114)</span></li>
+                        <li class="list__item alphabet__list-item">Thick eye discharge <span class="hint">(s_487)</span></li>
+                        <li class="list__item alphabet__list-item">Thickened nails <span class="hint">(s_1790)</span></li>
+                        <li class="list__item alphabet__list-item">Thickened nails with pits or grooves <span class="hint">(s_386)</span></li>
+                        <li class="list__item alphabet__list-item">Third-degree burn <span class="hint">(s_2039)</span></li>
+                        <li class="list__item alphabet__list-item">Thoughts of harming one's child <span class="hint">(s_728)</span></li>
+                        <li class="list__item alphabet__list-item">Thoughts of wanting to kill one's child <span class="hint">(s_729)</span></li>
+                        <li class="list__item alphabet__list-item">Throckmorton's sign <span class="hint">(s_1276)</span></li>
+                        <li class="list__item alphabet__list-item">Tingling fingers <span class="hint">(s_555)</span></li>
+                        <li class="list__item alphabet__list-item">Tingling fingers, first three digits <span class="hint">(s_1899)</span></li>
+                        <li class="list__item alphabet__list-item">Tingling fingers, fourth and fifth digits <span class="hint">(s_1900)</span></li>
+                        <li class="list__item alphabet__list-item">Tinnitus <span class="hint">(s_407)</span></li>
+                        <li class="list__item alphabet__list-item">Tinnitus, low frequency <span class="hint">(s_937)</span></li>
+                        <li class="list__item alphabet__list-item">Tinnitus, pulsatile <span class="hint">(s_1466)</span></li>
+                        <li class="list__item alphabet__list-item">Toe pain <span class="hint">(s_1833)</span></li>
+                        <li class="list__item alphabet__list-item">Toenail dystrophy <span class="hint">(s_1085)</span></li>
+                        <li class="list__item alphabet__list-item">Tongue enlargement <span class="hint">(s_673)</span></li>
+                        <li class="list__item alphabet__list-item">Tongue erythema <span class="hint">(s_607)</span></li>
+                        <li class="list__item alphabet__list-item">Tongue muscle atrophy <span class="hint">(s_995)</span></li>
+                        <li class="list__item alphabet__list-item">Tonsil stones <span class="hint">(s_1534)</span></li>
+                        <li class="list__item alphabet__list-item">Tooth loss <span class="hint">(s_1050)</span></li>
+                        <li class="list__item alphabet__list-item">Toothache <span class="hint">(s_551)</span></li>
+                        <li class="list__item alphabet__list-item">Toothache after contact with cold, sweet, or hot food <span class="hint">(s_55)</span></li>
+                        <li class="list__item alphabet__list-item">Toothache while chewing <span class="hint">(s_56)</span></li>
+                        <li class="list__item alphabet__list-item">Toothache, reduced after cold foods or drinks <span class="hint">(s_339)</span></li>
+                        <li class="list__item alphabet__list-item">Toothache, severe <span class="hint">(s_233)</span></li>
+                        <li class="list__item alphabet__list-item">Toothache, strong reaction to heat <span class="hint">(s_231)</span></li>
+                        <li class="list__item alphabet__list-item">Transverse furrow on the nose <span class="hint">(s_1100)</span></li>
+                        <li class="list__item alphabet__list-item">Tremor, flapping <span class="hint">(s_1421)</span></li>
+                        <li class="list__item alphabet__list-item">Tremor, intention <span class="hint">(s_1264)</span></li>
+                        <li class="list__item alphabet__list-item">Tremor, kinetic <span class="hint">(s_1454)</span></li>
+                        <li class="list__item alphabet__list-item">Tremor, resting <span class="hint">(s_1455)</span></li>
+                        <li class="list__item alphabet__list-item">Tremors <span class="hint">(s_538)</span></li>
+                        <li class="list__item alphabet__list-item">Tremors, both hands <span class="hint">(s_87)</span></li>
+                        <li class="list__item alphabet__list-item">Tremors, in one hand <span class="hint">(s_86)</span></li>
+                        <li class="list__item alphabet__list-item">Tremors, stress-related <span class="hint">(s_1765)</span></li>
+                        <li class="list__item alphabet__list-item">Tremors, subside after drinking alcohol <span class="hint">(s_84)</span></li>
+                        <li class="list__item alphabet__list-item">Tremors, tongue <span class="hint">(s_590)</span></li>
+                        <li class="list__item alphabet__list-item">Tremors, worsen after caffeine intake <span class="hint">(s_601)</span></li>
+                        <li class="list__item alphabet__list-item">Trigeminal neuralgia <span class="hint">(s_1056)</span></li>
+                        <li class="list__item alphabet__list-item">Trismus <span class="hint">(s_256)</span></li>
+                        <li class="list__item alphabet__list-item">Tromner's sign <span class="hint">(s_1262)</span></li>
+                        <li class="list__item alphabet__list-item">Trophic changes <span class="hint">(s_1074)</span></li>
+                        <li class="list__item alphabet__list-item">Trophic ulcer <span class="hint">(s_1076)</span></li>
+                        <li class="list__item alphabet__list-item">Trophic ulcer on the plantar side of the foot <span class="hint">(s_1078)</span></li>
+                        <li class="list__item alphabet__list-item">Trouble beginning urination <span class="hint">(s_691)</span></li>
+                        <li class="list__item alphabet__list-item">Trouble planning the future <span class="hint">(s_644)</span></li>
+                        <li class="list__item alphabet__list-item">Trousseau sign of latent tetany <span class="hint">(s_866)</span></li>
+                        <li class="list__item alphabet__list-item">Twisted neck <span class="hint">(s_2163)</span></li>
+                        <li class="list__item alphabet__list-item">Tympanic membrane light reflex distortion <span class="hint">(s_1366)</span></li>
+                    <h1>U</h1>
+                        <li class="list__item alphabet__list-item">Ulcer on skin <span class="hint">(s_672)</span></li>
+                        <li class="list__item alphabet__list-item">Ulcer, not healing within 6 weeks <span class="hint">(s_2208)</span></li>
+                        <li class="list__item alphabet__list-item">Ulceration on nipple <span class="hint">(s_194)</span></li>
+                        <li class="list__item alphabet__list-item">Ulcerations or abscesses near the anus <span class="hint">(s_351)</span></li>
+                        <li class="list__item alphabet__list-item">Unilateral enophthalmos <span class="hint">(s_668)</span></li>
+                        <li class="list__item alphabet__list-item">Unilateral facial paresis <span class="hint">(s_149)</span></li>
+                        <li class="list__item alphabet__list-item">Unilateral vulval swelling <span class="hint">(s_1586)</span></li>
+                        <li class="list__item alphabet__list-item">Upper limb pallor <span class="hint">(s_2068)</span></li>
+                        <li class="list__item alphabet__list-item">Urethral discharge when pressing the penis <span class="hint">(s_510)</span></li>
+                        <li class="list__item alphabet__list-item">Urinary incontinence <span class="hint">(s_153)</span></li>
+                        <li class="list__item alphabet__list-item">Urinary retention <span class="hint">(s_696)</span></li>
+                        <li class="list__item alphabet__list-item">Urinary urgency <span class="hint">(s_690)</span></li>
+                        <li class="list__item alphabet__list-item">Urination in small amounts <span class="hint">(s_689)</span></li>
+                        <li class="list__item alphabet__list-item">Urination while coughing or laughing or during physical exertion <span class="hint">(s_183)</span></li>
+                        <li class="list__item alphabet__list-item">Urticaria <span class="hint">(s_393)</span></li>
+                        <li class="list__item alphabet__list-item">Urticaria triggered by cold <span class="hint">(s_791)</span></li>
+                        <li class="list__item alphabet__list-item">Urticaria triggered by heat <span class="hint">(s_793)</span></li>
+                        <li class="list__item alphabet__list-item">Urticaria triggered by prolonged pressure on the skin <span class="hint">(s_790)</span></li>
+                        <li class="list__item alphabet__list-item">Urticaria triggered by scratching <span class="hint">(s_789)</span></li>
+                        <li class="list__item alphabet__list-item">Urticaria triggered by sunlight <span class="hint">(s_794)</span></li>
+                        <li class="list__item alphabet__list-item">Urticaria, present for more than six weeks <span class="hint">(s_2211)</span></li>
+                        <li class="list__item alphabet__list-item">Using methods to lose weight: vomiting, starvation diets <span class="hint">(s_243)</span></li>
+                        <li class="list__item alphabet__list-item">Uvula deviation towards unaffected side <span class="hint">(s_1287)</span></li>
+                    <h1>V</h1>
+                        <li class="list__item alphabet__list-item">V-shaped redness on chest <span class="hint">(s_759)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal bleeding in pregnancy <span class="hint">(s_2115)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal bleeding in pregnancy, heavy <span class="hint">(s_2117)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal bleeding in pregnancy, light <span class="hint">(s_2116)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal bleeding in pregnancy, painless <span class="hint">(s_2183)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal bleeding, negative or unknown pregnancy status <span class="hint">(s_2130)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal discharge with unpleasant odor <span class="hint">(s_64)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal discharge, scant, white, clumpy and odorless <span class="hint">(s_1569)</span></li>
+                        <li class="list__item alphabet__list-item">Vaginal dryness <span class="hint">(s_1811)</span></li>
+                        <li class="list__item alphabet__list-item">Vascular compromise <span class="hint">(s_2082)</span></li>
+                        <li class="list__item alphabet__list-item">Verbal learning disability <span class="hint">(s_1031)</span></li>
+                        <li class="list__item alphabet__list-item">Vesicular exanthema of mouth or ear <span class="hint">(s_1318)</span></li>
+                        <li class="list__item alphabet__list-item">Violating social norms after drinking alcohol <span class="hint">(s_824)</span></li>
+                        <li class="list__item alphabet__list-item">Visible and palpable enlarged vein of limb, chest or abdomen <span class="hint">(s_290)</span></li>
+                        <li class="list__item alphabet__list-item">Visible head lice on scalp <span class="hint">(s_1792)</span></li>
+                        <li class="list__item alphabet__list-item">Visual agnosia <span class="hint">(s_1034)</span></li>
+                        <li class="list__item alphabet__list-item">Visual field narrowing <span class="hint">(s_494)</span></li>
+                        <li class="list__item alphabet__list-item">Vitreous hemorrhage <span class="hint">(s_1398)</span></li>
+                        <li class="list__item alphabet__list-item">Vomiting <span class="hint">(s_305)</span></li>
+                        <li class="list__item alphabet__list-item">Vomiting, every time after meal <span class="hint">(s_1949)</span></li>
+                        <li class="list__item alphabet__list-item">Vomiting, more often in the morning <span class="hint">(s_1365)</span></li>
+                        <li class="list__item alphabet__list-item">Vomiting, projectile <span class="hint">(s_801)</span></li>
+                        <li class="list__item alphabet__list-item">Vulvovaginal burning <span class="hint">(s_1875)</span></li>
+                        <li class="list__item alphabet__list-item">Vulvovaginal itching <span class="hint">(s_630)</span></li>
+                        <li class="list__item alphabet__list-item">Vulvovaginal pain <span class="hint">(s_1829)</span></li>
+                    <h1>W</h1>
+                        <li class="list__item alphabet__list-item">Waist-hip ratio (WHR) over 0.85 in women <span class="hint">(s_1219)</span></li>
+                        <li class="list__item alphabet__list-item">Waist-hip ratio (WHR) over 1.0 in men <span class="hint">(s_1218)</span></li>
+                        <li class="list__item alphabet__list-item">Waking up early <span class="hint">(s_776)</span></li>
+                        <li class="list__item alphabet__list-item">Weak eye clenching <span class="hint">(s_1155)</span></li>
+                        <li class="list__item alphabet__list-item">Weak or absent pharyngeal reflex <span class="hint">(s_1280)</span></li>
+                        <li class="list__item alphabet__list-item">Weak peripheral pulses <span class="hint">(s_1348)</span></li>
+                        <li class="list__item alphabet__list-item">Weak pulse in legs <span class="hint">(s_735)</span></li>
+                        <li class="list__item alphabet__list-item">Weakness exacerbates after exercise <span class="hint">(s_1332)</span></li>
+                        <li class="list__item alphabet__list-item">Weight gain <span class="hint">(s_226)</span></li>
+                        <li class="list__item alphabet__list-item">Weight loss <span class="hint">(s_285)</span></li>
+                        <li class="list__item alphabet__list-item">Weight loss without loss of appetite <span class="hint">(s_237)</span></li>
+                        <li class="list__item alphabet__list-item">Weiss ring <span class="hint">(s_1402)</span></li>
+                        <li class="list__item alphabet__list-item">Westphal's sign <span class="hint">(s_1340)</span></li>
+                        <li class="list__item alphabet__list-item">Wheezing, audible <span class="hint">(s_474)</span></li>
+                        <li class="list__item alphabet__list-item">White nail discoloration <span class="hint">(s_1788)</span></li>
+                        <li class="list__item alphabet__list-item">White oral plaques <span class="hint">(s_1673)</span></li>
+                        <li class="list__item alphabet__list-item">White patch on cornea <span class="hint">(s_1796)</span></li>
+                        <li class="list__item alphabet__list-item">Winterbottom's sign <span class="hint">(s_1183)</span></li>
+                        <li class="list__item alphabet__list-item">Worms in stool <span class="hint">(s_1937)</span></li>
+                        <li class="list__item alphabet__list-item">Wound <span class="hint">(s_1980)</span></li>
+                        <li class="list__item alphabet__list-item">Wound infection <span class="hint">(s_1981)</span></li>
+                        <li class="list__item alphabet__list-item">Wound, lip <span class="hint">(s_2222)</span></li>
+                        <li class="list__item alphabet__list-item">Wrinkling or dimpling of skin on breast <span class="hint">(s_342)</span></li>
+                        <li class="list__item alphabet__list-item">Wrist drop <span class="hint">(s_1910)</span></li>
+                    <h1>X</h1>
+                        <li class="list__item alphabet__list-item">Xanthelasma <span class="hint">(s_613)</span></li>
+                        <li class="list__item alphabet__list-item">Xanthoma <span class="hint">(s_1561)</span></li>
+                    <h1>Y</h1>
+                        <li class="list__item alphabet__list-item">Yellow nail discoloration <span class="hint">(s_1789)</span></li>
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </ul>
+        
+    </section>
+
+    
+
 </body>
 </html>

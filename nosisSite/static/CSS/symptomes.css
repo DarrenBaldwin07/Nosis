@@ -1,0 +1,104 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: Poppins;
+
+}
+
+input[type="text"]
+{
+    font-size: .9em;
+}
+
+
+input::-webkit-input-placeholder {
+    font-size: 1.2em;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+li {
+    
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto; 
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.brand-div {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.logo {
+    width: 3em;
+    margin-left: 1em;
+}
+
+.link {
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+.sample-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sample-sec div {
+    text-align: center;
+}
+
+.sample-ids {
+    margin-top: 2em;
+}
+
+.sample-ids h1 {
+    color:  #52E182;
+    margin-top: 1em;
+}
