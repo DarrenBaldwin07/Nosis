@@ -12,6 +12,7 @@
 
 body {
     font-family: Poppins;
+    overflow-x: hidden;
 
 }
 
@@ -29,7 +30,12 @@ li a {
     color: black;
 }
 
-
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
 
 .container {
     max-width: 1600px;
@@ -137,6 +143,7 @@ li a {
 .info-sec {
     background-color: #52E182;
     color: white;
+    height: 100%;
 }
 
 .info-row {
@@ -150,6 +157,11 @@ li a {
 
 .info-row div {
     margin: 2em;
+}
+
+.footer-text {
+    color: #52E182;
+    font-family: "Poppins", sans-serif;
 }
 
 
