@@ -13,6 +13,7 @@
 body {
     font-family: Poppins;
     overflow-x: hidden;
+    overflow: auto;
 
 }
 
@@ -37,6 +38,15 @@ footer {
     padding: 1em;
 }
 
+.menu {
+    display: none;
+    width: 50px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto; 
@@ -49,6 +59,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     margin-top: 3em;
 }
 
@@ -60,8 +71,9 @@ footer {
 .links {
     display: flex;
     flex-direction: row;
-    width: 34.5%;
+
 }
+
 .name {
     font-weight: bold;
     font-size: 2em;
@@ -120,11 +132,11 @@ footer {
 }
 
 .hero-text {
-    width: 600px;
+    max-width: 600px;
 }
 
 .hero-img {
-    width: 700px
+    max-width: 700px
 }
 
 .get-started {
@@ -152,7 +164,6 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 4.5em;
-    width: 1300px
 }
 
 .info-row div {
@@ -164,6 +175,65 @@ footer {
     font-family: "Poppins", sans-serif;
 }
 
+
+@media only screen and (max-width: 1400px) {
+
+    
+
+    .hero-text {
+        max-width: 500px;
+    }
+
+    .hero-img {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+
+    .hero-text h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-text h4 {
+        font-size: 1em;
+    }
+
+    .hero-img {
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+    
+
+    .hero-cta {
+        flex-direction: column;
+    }
+
+}
+
+
+@media only screen and (max-width: 675px) {
+    .links {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hero-img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-img {
+        width: 300px;
+    }
+}
 
 
 
