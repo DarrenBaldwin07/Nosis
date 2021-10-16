@@ -176,6 +176,10 @@ footer {
 }
 
 
+
+
+
+
 @media only screen and (max-width: 1400px) {
 
     
@@ -212,12 +216,17 @@ footer {
         flex-direction: column;
     }
 
+    .links {
+        display: flex;
+    }
+
 }
 
 
 @media only screen and (max-width: 675px) {
     .links {
         display: none;
+        animation: animation: drop 0.5s ease forwards;
     }
 
     .menu {
@@ -226,6 +235,24 @@ footer {
 
     .hero-img {
         width: 400px;
+    }
+
+    .mobile-menu {
+        flex-direction: column;
+        position: absolute;
+        top: 120px;
+        right: 8%;
+        background-color: white;
+        padding: 1em;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        animation: animation: drop 0.5s ease forwards;
+    }
+
+    @keyframes drop {
+        0%{}
+        78%{ transform: translateY(100px)}
+        100%{ transform: translateY(100px)}
     }
 }
 
