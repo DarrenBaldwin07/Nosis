@@ -39,7 +39,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em;
 }
 
 .menu {
@@ -168,7 +167,9 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 4.5em;
+    text-align: center;
 }
+
 
 .info-row div {
     margin: 2em;
