@@ -1,4 +1,5 @@
-![Nosis](https://www.linkpicture.com/q/Nosis.jpg)
+
+![Nosis(1)](https://user-images.githubusercontent.com/68653294/173139934-aa30181a-d119-4d4f-8478-4e0d7a25d98d.jpg)
 
 ## Problem
 > Millions of people are avoiding preventive appointments during COVID-19, skipping visits, or avoiding hospital lobbies. To address our communities’ needs, I sought to build a solution for people to experience medical incite right in the middle of their homes!
